@@ -1,0 +1,4518 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>윤상훈 · Sanghoon Yoon · AI 빌더 · AI 엔지니어</title>
+<meta name="description" content="한화오션 방산 엔지니어 3년 4개월, 대치동 입시 컨설팅 4년. React·TypeScript·Supabase·Electron으로 AI 프로덕트 3개를 단독 구축했고, 1개는 현재 운영 중. AI 빌더·AI 엔지니어·AX 강사 포지션 가능.">
+<meta name="author" content="윤상훈 Sanghoon Yoon">
+
+<!-- Open Graph -->
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="윤상훈 포트폴리오">
+<meta property="og:title" content="윤상훈 · Sanghoon Yoon · AI 빌더 · AI 엔지니어">
+<meta property="og:description" content="한화오션 엔지니어 3년 4개월, 대치동 컨설팅 4년. React·TypeScript·Supabase·Electron으로 AI 프로덕트 3개를 단독 구축, 1개는 현재 운영 중. AI 빌더 · AI 엔지니어 · AX 강사.">
+<meta property="og:url" content="https://hoon7624g-web.github.io/portfolio/">
+<meta property="og:image" content="https://hoon7624g-web.github.io/portfolio/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Sanghoon Yoon · AI 빌더 · 한화오션 엔지니어 3년 + 대치동 컨설팅 4년 + AI 프로덕트 3개 단독 구축">
+<meta property="og:locale" content="ko_KR">
+
+<!-- Twitter Card -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="윤상훈 · Sanghoon Yoon · AI 빌더 · AI 엔지니어">
+<meta name="twitter:description" content="한화오션 3년 + 대치동 4년 + AI 프로덕트 3개 단독 구축(1개 운영 중). AI 빌더 · AI 엔지니어 · AX 강사.">
+<meta name="twitter:image" content="https://hoon7624g-web.github.io/portfolio/og-image.png">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+<link rel="dns-prefetch" href="https://cdn.jsdelivr.net">
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<!-- Pretendard · dynamic subset first (smaller, faster), full variable as fallback -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.css" />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable.css" />
+
+<!-- Three.js · lazy loaded for Hero WebGL particle network (tier 4-H) -->
+<script defer src="https://cdn.jsdelivr.net/npm/three@0.158.0/build/three.min.js"></script>
+
+<!-- Canonical & SEO -->
+<link rel="canonical" href="https://hoon7624g-web.github.io/portfolio/">
+<meta name="robots" content="index, follow, max-image-preview:large">
+<meta name="theme-color" content="#fafafa">
+<meta name="format-detection" content="telephone=no">
+
+<!-- Favicon · multi-format for best platform support -->
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%230a0a0a'/%3E%3Ccircle cx='11' cy='16' r='3.5' fill='%23fafafa'/%3E%3Ctext x='18' y='21' font-family='system-ui,-apple-system,sans-serif' font-size='12' font-weight='700' fill='%23fafafa'%3EY%3C/text%3E%3C/svg%3E">
+<link rel="icon" type="image/png" sizes="32x32" href="/portfolio/favicon-32.png">
+<link rel="icon" type="image/png" sizes="192x192" href="/portfolio/favicon-192.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/portfolio/apple-touch-icon.png">
+<link rel="manifest" href="/portfolio/site.webmanifest">
+
+<!-- JSON-LD · ProfilePage + Person + CreativeWork list -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ProfilePage",
+  "dateCreated": "2026-01-01",
+  "dateModified": "2026-04-22",
+  "mainEntity": {
+    "@type": "Person",
+    "@id": "https://hoon7624g-web.github.io/portfolio/#person",
+    "name": "윤상훈",
+    "givenName": "Sanghoon",
+    "familyName": "Yoon",
+    "alternateName": "Hoon Yoon",
+    "jobTitle": "AI 빌더 · AI 엔지니어 · AX 강사",
+    "description": "기획자 없이 제품을 만들고, 현장의 언어로 전달합니다. AI 프로덕트 3개를 단독으로 설계·배포했고, 그중 하나를 직접 운영 중인 풀스택 엔지니어.",
+    "email": "hoon7624g@gmail.com",
+    "telephone": "+82-10-2765-7624",
+    "url": "https://hoon7624g-web.github.io/portfolio/",
+    "image": "https://hoon7624g-web.github.io/portfolio/og-image.png",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Seoul",
+      "addressCountry": "KR"
+    },
+    "knowsLanguage": ["ko", "en"],
+    "knowsAbout": [
+      "AI Engineering",
+      "AI Automation",
+      "No-code Workflow Builder",
+      "Large Language Models",
+      "React",
+      "TypeScript",
+      "Supabase",
+      "PostgreSQL",
+      "Electron",
+      "Full-stack Development",
+      "AX Education",
+      "Technical Communication"
+    ],
+    "hasOccupation": {
+      "@type": "Occupation",
+      "name": "AI 빌더 · AI 엔지니어 · AX 강사",
+      "occupationalCategory": "15-1252"
+    },
+    "alumniOf": [
+      {
+        "@type": "EducationalOrganization",
+        "name": "한서대학교",
+        "department": "항공운항학과"
+      }
+    ],
+    "worksFor": {
+      "@type": "Organization",
+      "name": "Freelance"
+    },
+    "makesOffer": {
+      "@type": "Offer",
+      "itemOffered": {
+        "@type": "Service",
+        "name": "AI 프로덕트 빌딩 · AI 워크플로 자동화 · AX 강의",
+        "serviceType": "Technology Consulting"
+      }
+    }
+  }
+}
+</script>
+
+<!-- JSON-LD · CreativeWork list (3 shipped AI products) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Shipped AI Products by Sanghoon Yoon",
+  "itemListOrder": "Ascending",
+  "numberOfItems": 3,
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "item": {
+        "@type": "SoftwareApplication",
+        "name": "실시간 매칭 웹앱",
+        "applicationCategory": "WebApplication",
+        "operatingSystem": "Browser",
+        "description": "React 19 + TypeScript + Supabase 기반 실시간 매칭·투표·피드백·어드민 운영 제어 웹앱. 100명+ 동시 접속 환경 Realtime + 폴링 하이브리드 아키텍처.",
+        "author": { "@id": "https://hoon7624g-web.github.io/portfolio/#person" }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "item": {
+        "@type": "SoftwareApplication",
+        "name": "멀티 AI 영상 제작 데스크톱 앱",
+        "applicationCategory": "DesktopApplication",
+        "operatingSystem": "Windows, macOS",
+        "description": "Electron 40 + Remotion + Gemini/Claude/GPT/Perplexity + TTS 멀티 LLM 파이프라인. Human-in-the-loop 설계로 플랫폼 제재 리스크 관리.",
+        "author": { "@id": "https://hoon7624g-web.github.io/portfolio/#person" }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "item": {
+        "@type": "SoftwareApplication",
+        "name": "SNS 트렌드 데이터 수집·분석 데스크톱 앱",
+        "applicationCategory": "DesktopApplication",
+        "operatingSystem": "Windows, macOS",
+        "description": "Electron 40 + Supabase Edge Functions BFF 프록시 아키텍처. Instagram·TikTok·샤오홍슈 3개 플랫폼 트렌드 수집, 클라이언트 번들에 API 키 노출 방지 구조.",
+        "author": { "@id": "https://hoon7624g-web.github.io/portfolio/#person" }
+      }
+    }
+  ]
+}
+</script>
+
+<style>
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+:root {
+  /* ── Monochrome base ── */
+  --bg: #f9f9fb;
+  --surface: #ffffff;
+  --surface-alt: #f4f4f3;
+  --ink: #0b0b0d;
+  --ink-2: #2a2a2a;
+  --ink-3: #525252;
+  --ink-4: #6e6e6e;
+  --ink-5: #bdbdbd;
+  --hairline: #e8e8e7;
+  --hairline-dark: #d4d4d3;
+
+  /* ── Accent ── */
+  --accent: #1d4ed8;
+  --accent-hover: #1e40af;
+  --accent-soft: #eff6ff;
+
+  /* ── Dark invert ── */
+  --dark-bg: #0a0a0a;
+  --dark-bg-2: #1a1a1a;
+  --dark-ink: #fafafa;
+  --dark-ink-2: #d4d4d3;
+
+  /* ── Typography ── */
+  --sans: 'Pretendard Variable', 'Pretendard', -apple-system, BlinkMacSystemFont, 'Apple SD Gothic Neo', sans-serif;
+  --display: 'Archivo', 'Pretendard Variable', 'Pretendard', sans-serif;
+  --mono: 'JetBrains Mono', ui-monospace, 'SF Mono', monospace;
+
+  /* ── Scales ── */
+  --fs-hero: clamp(2.5rem, 7vw, 5.75rem);
+  --fs-h2: clamp(1.875rem, 4vw, 3.25rem);
+  --fs-h3: clamp(1.375rem, 2.2vw, 1.875rem);
+  --fs-h4: clamp(1.125rem, 1.5vw, 1.25rem);
+  --fs-lede: clamp(1.0625rem, 1.4vw, 1.25rem);
+  --fs-body: 1rem;
+  --fs-small: 0.875rem;
+  --fs-label: 0.6875rem;
+
+  /* ── Spacing scale (8pt grid) · tier 2-6 ── */
+  --space-1:  0.25rem;   /* 4px   */
+  --space-2:  0.5rem;    /* 8px   */
+  --space-3:  0.75rem;   /* 12px  */
+  --space-4:  1rem;      /* 16px  */
+  --space-5:  1.5rem;    /* 24px  */
+  --space-6:  2rem;      /* 32px  */
+  --space-7:  3rem;      /* 48px  */
+  --space-8:  4rem;      /* 64px  */
+  --space-9:  6rem;      /* 96px  */
+  --space-10: 8rem;      /* 128px */
+  --space-11: 10rem;     /* 160px */
+  --space-12: 12rem;     /* 192px */
+
+  /* ── Easing tokens (Rauno Freiberg style) · tier 4-X ── */
+  --ease-out-quart: cubic-bezier(0.16, 1, 0.3, 1);      /* 부드러운 감속 */
+  --ease-out-expo:  cubic-bezier(0.19, 1, 0.22, 1);     /* 강한 감속 */
+  --ease-smooth:    cubic-bezier(0.22, 1, 0.36, 1);     /* 표준 smooth */
+  --ease-spring:    cubic-bezier(0.34, 1.56, 0.64, 1);  /* 살짝 튕김 */
+
+  /* ── Derived tokens (dark-mode reactive) · K tier ── */
+  --grid-line: rgba(10, 10, 10, 0.04);
+  --noise-blend: multiply;
+  --shadow-ink: 10, 10, 10;
+}
+
+/* ═══════════════════════════════════════════════════
+   LIGHT MODE ONLY · dark mode removed
+═══════════════════════════════════════════════════ */
+
+html {
+  scroll-behavior: smooth;
+  font-size: 16px;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  background: var(--bg);
+  color: var(--ink);
+  font-family: var(--sans);
+  font-size: var(--fs-body);
+  font-weight: 400;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+  /* Typography Precision: kerning, ligatures, contextual alternates */
+  font-feature-settings: 'kern' 1, 'liga' 1, 'calt' 1, 'ss02' 1;
+  font-variant-numeric: proportional-nums;
+  -webkit-font-feature-settings: 'kern' 1, 'liga' 1, 'calt' 1;
+  hanging-punctuation: first last;
+  word-break: keep-all;
+  line-break: strict;
+  overflow-wrap: break-word;
+  overflow-x: hidden;
+  position: relative;
+}
+/* Tier 4-9: Subtle noise texture overlay (Gemini) — 전역 얇은 그레인 */
+body::before {
+  content: '';
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: 9999;
+  opacity: 0.035;
+  mix-blend-mode: var(--noise-blend);
+  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 200 200'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2' stitchTiles='stitch'/></filter><rect width='100%25' height='100%25' filter='url(%23n)'/></svg>");
+  background-size: 200px 200px;
+}
+@media (prefers-reduced-motion: reduce) {
+  body::before { opacity: 0.02; }
+}
+}
+
+/* Numeric elements: tabular + lining figures for perfect alignment */
+.metric-val,
+.hero-stat-val,
+.comm-stat-v,
+.code-body,
+.timeline-meta,
+.project-version,
+.footer-version,
+time,
+.chip,
+.eyebrow-num {
+  font-variant-numeric: tabular-nums lining-nums;
+  font-feature-settings: 'tnum' 1, 'lnum' 1;
+}
+
+img { max-width: 100%; height: auto; display: block; }
+a { color: inherit; text-decoration: none; }
+
+::selection { background: var(--accent); color: #ffffff; }
+::-moz-selection { background: var(--accent); color: #ffffff; }
+
+/* Screen reader only — 접근성 텍스트 */
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+/* Skip link · visible only when focused · a11y keyboard users */
+.skip-link {
+  position: fixed;
+  top: 0.75rem;
+  left: 0.75rem;
+  z-index: 10001;
+  padding: 0.65rem 1.1rem;
+  background: var(--ink);
+  color: var(--bg);
+  font-family: var(--sans);
+  font-size: 0.875rem;
+  font-weight: 600;
+  border-radius: 8px;
+  text-decoration: none;
+  transform: translateY(-150%);
+  transition: transform 0.24s var(--ease-smooth, ease);
+  box-shadow: 0 8px 20px -8px rgba(var(--shadow-ink, 10, 10, 10), 0.35);
+}
+.skip-link:focus,
+.skip-link:focus-visible {
+  transform: translateY(0);
+  outline: 2px solid var(--accent);
+  outline-offset: 3px;
+}
+
+/* Tier 5-3: focus-visible 일관 스타일 (키보드 내비게이션) */
+:focus {
+  outline: none;
+}
+:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 3px;
+  border-radius: 4px;
+}
+.hero-cta-btn:focus-visible,
+.contact-cta:focus-visible {
+  outline-offset: 4px;
+}
+.side-nav-dot:focus-visible {
+  outline-offset: 4px;
+}
+
+/* Tier 5-4: 이메일 복사 토스트 (Gemini) */
+.contact-primary {
+  position: relative;
+}
+.copy-toast {
+  position: absolute;
+  left: 50%;
+  top: -14px;
+  transform: translate(-50%, -6px) scale(0.92);
+  padding: 0.55rem 1rem;
+  background: var(--ink);
+  color: var(--bg);
+  font-family: var(--sans);
+  font-size: 0.82rem;
+  font-weight: 600;
+  border-radius: 999px;
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity 0.24s ease, transform 0.32s cubic-bezier(0.34, 1.56, 0.64, 1);
+  white-space: nowrap;
+  box-shadow: 0 8px 24px -8px rgba(10, 10, 10, 0.3);
+}
+.copy-toast.visible {
+  opacity: 1;
+  transform: translate(-50%, -18px) scale(1);
+}
+
+html { scroll-behavior: smooth; }
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+}
+section[id] { scroll-margin-top: 5rem; }
+@media (max-width: 720px) {
+  section[id] { scroll-margin-top: 4rem; }
+}
+
+/* ═══════════════════════════════════════════════════
+   HEADER
+═══════════════════════════════════════════════════ */
+.header {
+  position: fixed;
+  top: 0; left: 0; right: 0;
+  z-index: 100;
+  padding: 1.25rem 0;
+  /* Fallback: opaque surface-ish */
+  background: var(--bg);
+  border-bottom: 1px solid transparent;
+  transition: border-color 0.3s ease, background 0.3s ease;
+}
+/* When backdrop-filter is supported: use translucent bg for premium glass effect */
+@supports ((backdrop-filter: blur(1px)) or (-webkit-backdrop-filter: blur(1px))) {
+  .header {
+    background: color-mix(in srgb, var(--bg) 82%, transparent);
+    backdrop-filter: saturate(180%) blur(14px);
+    -webkit-backdrop-filter: saturate(180%) blur(14px);
+  }
+}
+/* color-mix() fallback (for browsers that support backdrop but not color-mix) */
+@supports ((backdrop-filter: blur(1px)) or (-webkit-backdrop-filter: blur(1px))) and (not (background: color-mix(in srgb, white, transparent))) {
+  .header { background: rgba(250, 250, 250, 0.82); }
+}
+.header.scrolled { border-bottom-color: var(--hairline); }
+.header-inner {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-brand {
+  display: flex;
+  align-items: center;
+  gap: 0.65rem;
+  font-weight: 700;
+  font-size: 0.95rem;
+  letter-spacing: -0.01em;
+}
+.header-brand::before {
+  content: '';
+  width: 8px;
+  height: 8px;
+  background: var(--ink);
+  border-radius: 50%;
+}
+.header-nav {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+}
+.header-nav a {
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: var(--ink-3);
+  transition: color 0.2s ease;
+}
+.header-nav a:hover { color: var(--ink); }
+.header-nav .cta {
+  padding: 0.55rem 1rem;
+  background: var(--ink);
+  color: var(--bg);
+  border-radius: 999px;
+  font-weight: 600;
+  transition: background 0.2s ease, transform 0.2s ease;
+}
+.header-nav .cta:hover {
+  background: var(--accent);
+  color: #fff;
+  transform: translateY(-1px);
+}
+@media (max-width: 720px) {
+  .header-nav { gap: 0.75rem; }
+  .header-nav a.nav-link { font-size: 0.78rem; }
+}
+@media (max-width: 480px) {
+  .header-nav a.nav-link { display: none; }
+}
+
+/* ═══════════════════════════════════════════════════
+   Shared
+═══════════════════════════════════════════════════ */
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+section.page {
+  padding: var(--space-9) 0;
+  position: relative;
+}
+/* Tier 2-9: section hierarchy — Work 핵심, Stack 보조 */
+#work { padding: var(--space-10) 0; }
+#stack { padding: 5rem 0; }
+@media (max-width: 768px) {
+  section.page { padding: var(--space-8) 0; }
+  #work { padding: 5rem 0; }
+  #stack { padding: 3.5rem 0; }
+  .container { padding: 0 var(--space-6); }
+}
+@media (max-width: 360px) {
+  .container { padding: 0 var(--space-5); }
+}
+
+.eyebrow {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-family: var(--display);
+  font-weight: 500;
+  font-size: var(--fs-label);
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--ink-3);
+  margin-bottom: 1.5rem;
+}
+.eyebrow::before {
+  content: '';
+  width: 1.5rem;
+  height: 1px;
+  background: var(--ink-3);
+}
+.eyebrow-num {
+  font-family: var(--mono);
+  font-weight: 500;
+  color: var(--ink-4);
+}
+
+.section-title {
+  font-size: var(--fs-h2);
+  line-height: 1.15;
+  letter-spacing: -0.03em;
+  font-weight: 700;
+  color: var(--ink);
+  margin-bottom: 1.5rem;
+}
+.section-title .highlight { color: var(--accent); }
+
+.section-lede {
+  font-size: var(--fs-lede);
+  line-height: 1.65;
+  color: var(--ink-3);
+  max-width: 720px;
+  margin-bottom: 4rem;
+  font-weight: 400;
+}
+
+/* ═══════════════════════════════════════════════════
+   HERO
+═══════════════════════════════════════════════════ */
+.hero {
+  min-height: auto;
+  padding-top: 9rem;
+  padding-bottom: 5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+  isolation: isolate;
+}
+.hero::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  background-image:
+    linear-gradient(to right, var(--grid-line) 1px, transparent 1px),
+    linear-gradient(to bottom, var(--grid-line) 1px, transparent 1px);
+  background-size: 48px 48px;
+  mask-image: radial-gradient(ellipse 85% 65% at 50% 40%, black 40%, transparent 90%);
+  -webkit-mask-image: radial-gradient(ellipse 85% 65% at 50% 40%, black 40%, transparent 90%);
+  pointer-events: none;
+}
+.hero::after {
+  content: '';
+  position: absolute;
+  top: 8%;
+  left: -5%;
+  width: 45%;
+  height: 50%;
+  z-index: -1;
+  background: radial-gradient(circle at 30% 40%, rgba(29, 78, 216, 0.06), transparent 70%);
+  pointer-events: none;
+}
+
+/* ═══════════════════════════════════════════════════
+   HERO WEBGL PARTICLE NETWORK — 4th layer (tier 4-H)
+═══════════════════════════════════════════════════ */
+.hero-webgl {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -2;
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity 1.2s var(--ease-out-quart);
+  mask-image: radial-gradient(ellipse 80% 70% at 35% 45%, black 20%, transparent 85%);
+  -webkit-mask-image: radial-gradient(ellipse 80% 70% at 35% 45%, black 20%, transparent 85%);
+}
+.hero-webgl.ready { opacity: 0.7; }
+
+@media (prefers-reduced-motion: reduce) {
+  .hero-webgl { display: none !important; }
+}
+@media (max-width: 720px) {
+  .hero-webgl { display: none !important; }
+}
+
+/* ═══════════════════════════════════════════════════
+   HERO ARCHITECTURE SIGNATURE — 3rd layer (tier 4-10)
+═══════════════════════════════════════════════════ */
+.hero-signature {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  pointer-events: none;
+  opacity: 0.75;
+  overflow: visible;
+  color: var(--accent); /* Used via currentColor in child elements for dark-mode reactivity */
+  mask-image: radial-gradient(ellipse 70% 60% at 35% 40%, black 50%, transparent 92%);
+  -webkit-mask-image: radial-gradient(ellipse 70% 60% at 35% 40%, black 50%, transparent 92%);
+}
+.hero-signature .node-stroke { fill: none; stroke: currentColor; stroke-width: 1.5; opacity: 0.35; }
+.hero-signature .node-center { fill: currentColor; opacity: 0.5; }
+.hero-signature .link-static { fill: none; stroke: currentColor; stroke-width: 1; opacity: 0.2; }
+.hero-signature .link-flow   { fill: none; stroke: currentColor; stroke-width: 1; opacity: 0.35; stroke-dasharray: 4 6; animation: hero-sig-flow 10s linear infinite; }
+
+@keyframes hero-sig-flow {
+  from { stroke-dashoffset: 0; }
+  to   { stroke-dashoffset: -40; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .hero-signature .link-flow { animation: none; }
+}
+@media (max-width: 720px) {
+  .hero-signature { display: none; }
+}
+
+.hero-eyebrow {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.75rem;
+  font-family: var(--display);
+  font-weight: 500;
+  font-size: var(--fs-label);
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--ink-3);
+  margin-bottom: 2.5rem;
+  padding: 0.4rem 0.9rem 0.4rem 0.5rem;
+  background: var(--surface);
+  border: 1px solid var(--hairline);
+  border-radius: 999px;
+}
+.hero-eyebrow::before {
+  content: '';
+  width: 7px;
+  height: 7px;
+  background: #10b981;
+  border-radius: 50%;
+  box-shadow: 0 0 0 3px rgba(16, 185, 129, 0.15);
+}
+
+.hero-title {
+  font-size: clamp(1.75rem, 7vw, 5.75rem);
+  line-height: 1.1;
+  letter-spacing: -0.04em;
+  font-weight: 800;
+  color: var(--ink);
+  margin-bottom: 2rem;
+}
+@media (min-width: 900px) {
+  .hero-title { max-width: 28ch; }
+}
+.hero-title .highlight { color: var(--accent); }
+
+.hero-sub {
+  font-size: var(--fs-lede);
+  line-height: 1.65;
+  color: var(--ink-3);
+  max-width: 640px;
+  margin-bottom: 3.5rem;
+  font-weight: 400;
+}
+.hero-sub strong {
+  color: var(--ink);
+  font-weight: 600;
+}
+
+.hero-stats {
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+  gap: 2.5rem;
+  margin-bottom: 3.5rem;
+}
+@media (max-width: 720px) {
+  .hero-stats { grid-template-columns: repeat(2, 1fr); gap: 1.75rem; }
+}
+.hero-stat-val {
+  font-family: var(--display);
+  font-size: clamp(1.5rem, 2.5vw, 2.25rem);
+  font-weight: 600;
+  line-height: 1;
+  letter-spacing: -0.02em;
+  color: var(--ink);
+}
+.hero-stat-val .unit {
+  font-weight: 400;
+  color: var(--ink-4);
+  font-size: 0.7em;
+}
+.hero-stat-label {
+  font-size: var(--fs-label);
+  font-family: var(--display);
+  font-weight: 500;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--ink-4);
+  margin-top: 0.45rem;
+  line-height: 1.4;
+}
+
+.hero-cta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin-bottom: 3rem;
+}
+.hero-cta-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.75rem 1.35rem;
+  border-radius: 999px;
+  font-family: var(--sans);
+  font-size: 0.9rem;
+  font-weight: 600;
+  letter-spacing: -0.01em;
+  transition:
+    background 0.28s var(--ease-smooth),
+    color 0.28s var(--ease-smooth),
+    transform 0.4s var(--ease-spring),
+    border-color 0.28s var(--ease-smooth);
+  cursor: pointer;
+  border: 1px solid transparent;
+}
+.hero-cta-btn.primary {
+  background: var(--ink);
+  color: var(--bg);
+}
+.hero-cta-btn.primary:hover {
+  background: var(--accent);
+  transform: translateY(-1px);
+}
+.hero-cta-btn.secondary {
+  background: transparent;
+  color: var(--ink);
+  border-color: var(--hairline-dark);
+}
+.hero-cta-btn.secondary:hover {
+  border-color: var(--ink);
+  transform: translateY(-1px);
+}
+.hero-cta-btn svg {
+  width: 14px;
+  height: 14px;
+  stroke-width: 2;
+}
+@media (max-width: 560px) {
+  .hero-cta {
+    gap: 0.6rem;
+    margin-bottom: 2.5rem;
+  }
+  .hero-cta-btn {
+    padding: 0.65rem 1.1rem;
+    font-size: 0.85rem;
+  }
+}
+
+.hero-scroll {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.75rem;
+  font-family: var(--display);
+  font-size: var(--fs-label);
+  font-weight: 500;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--ink-4);
+  margin-top: 0.5rem;
+}
+.hero-scroll::before {
+  content: '';
+  width: 1px;
+  height: 2.5rem;
+  background: linear-gradient(to bottom, var(--ink-4) 50%, transparent 50%);
+  background-size: 1px 8px;
+  animation: scroll-line 1.6s linear infinite;
+}
+@keyframes scroll-line {
+  0% { background-position: 0 0; }
+  100% { background-position: 0 8px; }
+}
+
+/* ── Hero mobile refinement ── */
+@media (max-width: 560px) {
+  .hero {
+    padding-top: 7.5rem;
+    padding-bottom: 3rem;
+  }
+  .hero-eyebrow {
+    margin-bottom: 1.75rem;
+    font-size: 0.72rem;
+  }
+  .hero-title {
+    font-size: 1.55rem;
+    line-height: 1.3;
+    letter-spacing: -0.02em;
+    margin-bottom: 1.5rem;
+    max-width: none;
+  }
+  .hero-sub {
+    font-size: 0.92rem;
+    line-height: 1.65;
+    margin-bottom: 2.5rem;
+  }
+  .hero-stats {
+    gap: 1.25rem 1.5rem;
+    margin-bottom: 2.5rem;
+  }
+  .hero-scroll {
+    margin-top: 1.5rem;
+  }
+}
+@media (max-width: 380px) {
+  .hero-title {
+    font-size: 1.4rem;
+  }
+}
+
+/* ═══════════════════════════════════════════════════
+   ABOUT
+═══════════════════════════════════════════════════ */
+.about {
+  background: var(--surface);
+  border-top: 1px solid var(--hairline);
+  border-bottom: 1px solid var(--hairline);
+}
+
+.about-intro {
+  max-width: 960px;
+  margin: 0 auto 5rem;
+  text-align: center;
+}
+.about-intro .section-title,
+.about-intro .section-lede { margin-left: auto; margin-right: auto; }
+.about-intro .section-title { max-width: 22ch; }
+
+.timeline {
+  max-width: 960px;
+  margin: 0 auto;
+  position: relative;
+}
+.timeline::before {
+  content: '';
+  position: absolute;
+  left: 1.4rem;
+  top: 0;
+  bottom: 0;
+  width: 1px;
+  background: var(--hairline);
+}
+@media (max-width: 720px) { .timeline::before { left: 1rem; } }
+
+.timeline-item {
+  position: relative;
+  padding-left: 4rem;
+  padding-bottom: 4rem;
+}
+.timeline-item:last-child { padding-bottom: 0; }
+.timeline-item::before {
+  content: '';
+  position: absolute;
+  left: calc(1.4rem - 6px);
+  top: 0.3rem;
+  width: 13px;
+  height: 13px;
+  border-radius: 50%;
+  background: var(--bg);
+  border: 2px solid var(--ink-3);
+}
+.timeline-item.current::before {
+  background: var(--accent);
+  border-color: var(--accent);
+  box-shadow: 0 0 0 5px rgba(29, 78, 216, 0.15);
+}
+@media (max-width: 720px) {
+  .timeline-item { padding-left: 2.75rem; }
+  .timeline-item::before { left: calc(1rem - 6px); }
+}
+
+.timeline-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem 1.5rem;
+  align-items: baseline;
+  margin-bottom: 0.85rem;
+  font-family: var(--display);
+  font-size: var(--fs-label);
+  font-weight: 500;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--ink-4);
+}
+.timeline-meta .period { color: var(--ink-3); }
+.timeline-meta .duration {
+  color: var(--ink-3);
+  font-family: var(--mono);
+  font-weight: 500;
+  letter-spacing: 0;
+  text-transform: none;
+  font-size: var(--fs-small);
+}
+
+.timeline-title {
+  font-size: var(--fs-h3);
+  line-height: 1.3;
+  letter-spacing: -0.02em;
+  font-weight: 700;
+  color: var(--ink);
+  margin-bottom: 0.5rem;
+}
+.timeline-subtitle {
+  font-size: var(--fs-small);
+  color: var(--ink-3);
+  margin-bottom: 1.2rem;
+  font-weight: 500;
+}
+
+.timeline-body p {
+  color: var(--ink-2);
+  line-height: 1.75;
+  margin-bottom: 1rem;
+  max-width: 62ch;
+}
+.timeline-body p.emph {
+  font-size: 1.0625rem;
+  color: var(--ink);
+  font-weight: 500;
+  padding: 1rem 1.25rem;
+  background: var(--surface-alt);
+  border-left: 2px solid var(--ink);
+  margin: 1.25rem 0;
+  max-width: 58ch;
+}
+
+/* ═══════════════════════════════════════════════════
+   WORK
+═══════════════════════════════════════════════════ */
+.work-grid {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-6);
+}
+
+.project {
+  background: var(--surface);
+  border: 1px solid var(--hairline);
+  border-radius: 20px;
+  padding: 3rem;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.6), 0 1px 2px rgba(10, 10, 10, 0.02);
+  transition: border-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+  position: relative;
+  isolation: isolate;
+  overflow: hidden;
+}
+/* Tier 4-7: mousemove radial-gradient glow overlay */
+.project::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  background: radial-gradient(
+    circle 340px at var(--glow-x, -500px) var(--glow-y, -500px),
+    rgba(29, 78, 216, 0.08),
+    transparent 70%
+  );
+  opacity: 0;
+  transition: opacity 0.4s ease;
+  pointer-events: none;
+  z-index: 0;
+}
+.project:hover::before {
+  opacity: 1;
+}
+.project > * {
+  position: relative;
+  z-index: 1;
+}
+.project:hover {
+  border-color: var(--ink-5);
+  transform: translateY(-2px);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.7), 0 16px 40px -20px rgba(10, 10, 10, 0.12);
+}
+@media (max-width: 768px) {
+  .project { padding: 2rem 1.5rem; border-radius: 16px; }
+}
+
+.project-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 2rem;
+  flex-wrap: wrap;
+  margin-bottom: 1.5rem;
+}
+.project-header-left {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+.project-index {
+  font-family: var(--mono);
+  font-size: var(--fs-label);
+  font-weight: 500;
+  letter-spacing: 0.1em;
+  color: var(--ink-4);
+  text-transform: uppercase;
+}
+.project-title {
+  font-size: var(--fs-h3);
+  line-height: 1.25;
+  letter-spacing: -0.02em;
+  font-weight: 700;
+  color: var(--ink);
+}
+.project-version {
+  font-family: var(--mono);
+  font-size: 0.8125rem;
+  color: var(--ink-4);
+  margin-top: 0.3rem;
+}
+.project-badges {
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+  margin-top: 0.5rem;
+}
+.badge {
+  font-family: var(--sans);
+  font-size: var(--fs-label);
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  padding: 0.35rem 0.7rem;
+  border-radius: 999px;
+  border: 1px solid var(--hairline-dark);
+  color: var(--ink-3);
+  background: var(--bg);
+  white-space: nowrap;
+}
+.badge.live {
+  background: #ecfdf5;
+  color: #047857;
+  border-color: #a7f3d0;
+}
+.badge.accent {
+  background: var(--ink);
+  color: var(--bg);
+  border-color: var(--ink);
+}
+
+.project-lede {
+  font-size: 1.0625rem;
+  line-height: 1.7;
+  color: var(--ink-2);
+  margin-bottom: 2rem;
+  max-width: 72ch;
+}
+.project-lede strong { color: var(--ink); font-weight: 600; }
+
+.project-metrics {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin: 2.5rem 0;
+  border: 1px solid var(--hairline);
+  border-radius: 16px;
+  overflow: hidden;
+  background: var(--bg);
+}
+@media (max-width: 720px) {
+  .project-metrics { grid-template-columns: 1fr; }
+  .project-metrics .metric { border-right: none !important; border-bottom: 1px solid var(--hairline); }
+  .project-metrics .metric:last-child { border-bottom: none; }
+}
+.metric {
+  padding: 2rem 1.5rem 1.75rem;
+  background: var(--surface);
+  border-right: 1px solid var(--hairline);
+  position: relative;
+  transition: background 0.25s ease;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 140px;
+}
+.metric:hover { background: var(--surface-alt); }
+.metric:last-child { border-right: none; }
+
+/* First metric = visual hero — highlighted on left with accent bar */
+.metric:first-child {
+  background: var(--ink);
+  color: var(--bg);
+}
+.metric:first-child::before {
+  content: '';
+  position: absolute;
+  top: 0; left: 0; bottom: 0;
+  width: 3px;
+  background: var(--bg);
+}
+.metric:first-child:hover { background: #000; }
+.metric:first-child .metric-val { color: var(--bg); }
+.metric:first-child .metric-val .unit { color: rgba(250, 250, 250, 0.55); }
+.metric:first-child .metric-label { color: rgba(250, 250, 250, 0.6); }
+
+.metric-val {
+  font-family: var(--display);
+  font-size: clamp(2rem, 3.2vw, 2.75rem);
+  font-weight: 700;
+  line-height: 1;
+  color: var(--ink);
+  letter-spacing: -0.03em;
+  display: block;
+  margin-bottom: 0.8rem;
+}
+.metric-val .unit {
+  font-weight: 400;
+  color: var(--ink-4);
+  font-size: 0.5em;
+  margin-left: 0.2em;
+  letter-spacing: 0;
+}
+.metric-label {
+  font-family: var(--display);
+  font-size: 0.72rem;
+  font-weight: 500;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--ink-4);
+  line-height: 1.45;
+}
+@media (max-width: 720px) {
+  .metric { min-height: 120px; padding: 1.5rem 1.15rem; }
+  .metric-val { font-size: 2rem; }
+}
+
+.arch-diagram {
+  margin: 2rem 0;
+  padding: 1.5rem;
+  background: linear-gradient(180deg, #fafafa 0%, #f4f4f3 100%);
+  border: 1px solid var(--hairline);
+  border-radius: 14px;
+  overflow: hidden;
+}
+.arch-diagram--craft {
+  margin: 2.5rem 0 3.5rem;
+  padding: 2rem 1.75rem;
+  background: linear-gradient(180deg, #0a0a0a 0%, #1a1a1a 100%);
+  border: 1px solid rgba(250, 250, 250, 0.08);
+  border-radius: 16px;
+  position: relative;
+  overflow: hidden;
+}
+.arch-diagram--craft::before {
+  content: '';
+  position: absolute;
+  top: 0; left: 0;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(90deg, transparent, #c5806a 20%, #5c8bd9 50%, #268c73 80%, transparent);
+  opacity: 0.6;
+}
+.arch-diagram svg {
+  display: block;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+}
+
+/* Pipeline / flow indicator — subtle moving dashes on key arrows */
+.arch-diagram svg .arch-line-flow {
+  stroke-dasharray: 4 3;
+  animation: arch-flow 2s linear infinite;
+}
+@keyframes arch-flow {
+  from { stroke-dashoffset: 0; }
+  to   { stroke-dashoffset: -14; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .arch-diagram svg .arch-line-flow { animation: none; stroke-dasharray: none; }
+}
+
+/* SVG text 품질 강화 — 폰트 fallback 강제, 렌더링 정교화 */
+.arch-diagram svg text,
+.arch-diagram--craft svg text {
+  text-rendering: geometricPrecision;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-feature-settings: 'kern' 1, 'liga' 1;
+}
+.arch-diagram svg text[font-family*="Archivo"],
+.arch-diagram--craft svg text[font-family*="Archivo"] {
+  font-family: 'Archivo', 'Pretendard Variable', 'Pretendard', -apple-system, BlinkMacSystemFont, sans-serif !important;
+}
+.arch-diagram svg text[font-family*="Pretendard"],
+.arch-diagram--craft svg text[font-family*="Pretendard"] {
+  font-family: 'Pretendard Variable', 'Pretendard', -apple-system, BlinkMacSystemFont, 'Apple SD Gothic Neo', 'Malgun Gothic', sans-serif !important;
+}
+.arch-diagram svg text[font-family*="JetBrains"],
+.arch-diagram svg text[font-family*="Mono"],
+.arch-diagram--craft svg text[font-family*="JetBrains"] {
+  font-family: 'JetBrains Mono', ui-monospace, 'SF Mono', Menlo, Consolas, monospace !important;
+}
+@media (max-width: 720px) {
+  .arch-diagram {
+    padding: 1rem 0.75rem;
+    margin: 1.5rem -0.5rem;
+    border-radius: 10px;
+  }
+}
+
+.project-body h4 {
+  font-size: var(--fs-h4);
+  font-weight: 700;
+  color: var(--ink);
+  margin-top: 2rem;
+  margin-bottom: 0.85rem;
+  letter-spacing: -0.01em;
+  display: flex;
+  align-items: center;
+  gap: 0.65rem;
+}
+.project-body h4::before {
+  content: '';
+  width: 4px;
+  height: 1.1em;
+  background: var(--ink);
+  border-radius: 2px;
+}
+.project-body p {
+  color: var(--ink-2);
+  line-height: 1.75;
+  max-width: 72ch;
+  margin-bottom: 1rem;
+}
+.project-body strong { color: var(--ink); font-weight: 600; }
+.project-body code {
+  font-family: var(--mono);
+  font-size: 0.85em;
+  padding: 0.15em 0.4em;
+  background: var(--surface-alt);
+  border-radius: 4px;
+  color: var(--ink);
+  border: 1px solid var(--hairline-dark);
+}
+
+.project-body ul {
+  list-style: none;
+  margin: 0.5rem 0 1.5rem;
+}
+.project-body ul li {
+  position: relative;
+  padding-left: 1.5rem;
+  padding-bottom: 0.7rem;
+  color: var(--ink-2);
+  line-height: 1.7;
+  max-width: 72ch;
+}
+.project-body ul li::before {
+  content: '';
+  position: absolute;
+  left: 0.1rem;
+  top: 0.75em;
+  width: 6px;
+  height: 6px;
+  background: var(--ink-4);
+  border-radius: 50%;
+}
+.project-body ul li strong { color: var(--ink); font-weight: 600; }
+
+.stack {
+  margin: 2rem 0 0.5rem;
+  padding-top: 1.75rem;
+  border-top: 1px solid var(--hairline);
+}
+.stack-label {
+  font-family: var(--display);
+  font-size: var(--fs-label);
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--ink-4);
+  margin-bottom: 0.8rem;
+}
+.stack-chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+}
+.chip {
+  font-family: var(--mono);
+  font-size: 0.75rem;
+  padding: 0.3rem 0.65rem;
+  background: var(--bg);
+  border: 1px solid var(--hairline-dark);
+  border-radius: 6px;
+  color: var(--ink-2);
+  font-weight: 500;
+}
+
+/* ─── Lecture sample (Work 04) — thumbnails + download buttons ─── */
+.lecture-thumbs {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 0.875rem;
+  margin: 1.25rem 0 0.875rem;
+}
+
+@media (max-width: 700px) {
+  .lecture-thumbs { grid-template-columns: 1fr; }
+}
+
+.lecture-thumb {
+  display: flex;
+  flex-direction: column;
+  background: var(--surface);
+  border: 1px solid var(--hairline);
+  border-radius: 6px;
+  overflow: hidden;
+  text-decoration: none;
+  transition: border-color 0.2s, transform 0.2s;
+}
+
+.lecture-thumb:hover {
+  border-color: var(--accent);
+  transform: translateY(-2px);
+}
+
+.lecture-thumb img {
+  width: 100%;
+  height: auto;
+  display: block;
+  background: var(--surface-alt);
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+}
+
+.lecture-thumb-cap {
+  font-family: var(--mono);
+  font-size: 0.6875rem;
+  font-weight: 500;
+  letter-spacing: 0.06em;
+  color: var(--ink-3);
+  padding: 0.5rem 0.75rem;
+  border-top: 1px solid var(--hairline);
+}
+
+.lecture-ctas {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.625rem;
+  margin: 0.5rem 0 1.5rem;
+}
+
+.lecture-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.55rem 0.875rem;
+  background: var(--surface);
+  border: 1px solid var(--hairline-dark);
+  border-radius: 6px;
+  color: var(--ink-2);
+  font-family: var(--sans);
+  font-size: 0.8125rem;
+  font-weight: 500;
+  text-decoration: none;
+  transition: border-color 0.15s, background 0.15s, color 0.15s;
+}
+
+.lecture-btn:hover {
+  border-color: var(--accent);
+  color: var(--accent);
+}
+
+.lecture-btn.primary {
+  background: var(--ink);
+  border-color: var(--ink);
+  color: var(--surface);
+}
+
+.lecture-btn.primary:hover {
+  background: var(--accent);
+  border-color: var(--accent);
+  color: #fff;
+}
+
+.lecture-btn-icon {
+  font-family: var(--mono);
+  font-weight: 600;
+  font-size: 0.875rem;
+  line-height: 1;
+}
+
+/* ═══════════════════════════════════════════════════
+   CRAFT
+═══════════════════════════════════════════════════ */
+.craft {
+  background: var(--surface);
+  border-top: 1px solid var(--hairline);
+  border-bottom: 1px solid var(--hairline);
+}
+
+.craft-intro { margin-bottom: 4rem; }
+
+.principles {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  background: var(--hairline);
+  border: 1px solid var(--hairline);
+  border-radius: 16px;
+  overflow: hidden;
+  margin-bottom: 5rem;
+  gap: 1px;
+}
+@media (max-width: 520px) { .principles { grid-template-columns: 1fr; } }
+
+.principle {
+  padding: 2rem 1.75rem;
+  background: var(--bg);
+}
+.principle-num {
+  font-family: var(--mono);
+  font-size: 0.8125rem;
+  font-weight: 500;
+  color: var(--ink-4);
+  margin-bottom: 0.8rem;
+}
+.principle h4 {
+  font-size: 1.125rem;
+  font-weight: 700;
+  color: var(--ink);
+  margin-bottom: 0.6rem;
+  line-height: 1.35;
+  letter-spacing: -0.01em;
+}
+.principle p {
+  font-size: 0.9375rem;
+  line-height: 1.65;
+  color: var(--ink-3);
+}
+
+.comm-header { margin-bottom: 2rem; }
+.comm-header h3 {
+  font-size: var(--fs-h3);
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  color: var(--ink);
+  margin-bottom: 0.5rem;
+}
+.comm-header p {
+  color: var(--ink-3);
+  max-width: 56ch;
+  line-height: 1.65;
+}
+
+.comm-stats {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  background: var(--hairline);
+  border: 1px solid var(--hairline);
+  border-radius: 16px;
+  overflow: hidden;
+  gap: 1px;
+}
+@media (max-width: 640px) { .comm-stats { grid-template-columns: 1fr; } }
+
+.comm-stat {
+  padding: 1.5rem 1.75rem;
+  background: var(--bg);
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 1rem;
+}
+.comm-stat-k {
+  font-family: var(--display);
+  font-size: var(--fs-label);
+  font-weight: 500;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--ink-4);
+}
+.comm-stat-v {
+  font-family: var(--display);
+  font-weight: 600;
+  font-size: 1.125rem;
+  color: var(--ink);
+  letter-spacing: -0.01em;
+  white-space: nowrap;
+}
+.comm-stat-v .sub {
+  font-family: var(--mono);
+  font-size: 0.75rem;
+  color: var(--ink-4);
+  font-weight: 400;
+  margin-left: 0.35rem;
+}
+
+/* ═══════════════════════════════════════════════════
+   NEXT (dark block)
+═══════════════════════════════════════════════════ */
+.next {
+  background: var(--dark-bg);
+  color: var(--dark-ink);
+  padding: 7rem 0;
+  position: relative;
+  overflow: hidden;
+}
+.next::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background:
+    radial-gradient(circle at 15% 20%, rgba(29, 78, 216, 0.25), transparent 45%),
+    radial-gradient(circle at 90% 80%, rgba(139, 92, 246, 0.15), transparent 50%);
+  pointer-events: none;
+}
+.next > * { position: relative; z-index: 1; }
+
+.next .eyebrow { color: var(--dark-ink-2); }
+.next .eyebrow::before { background: var(--dark-ink-2); }
+.next .eyebrow-num { color: #60a5fa; }
+
+.next-title {
+  font-size: var(--fs-hero);
+  line-height: 1.1;
+  letter-spacing: -0.035em;
+  font-weight: 800;
+  color: var(--dark-ink);
+  max-width: 20ch;
+  margin-bottom: 2rem;
+}
+.next-title .hl { color: #60a5fa; }
+
+.next-body {
+  display: grid;
+  grid-template-columns: 1.2fr 1fr;
+  gap: 4rem;
+  margin-top: 4rem;
+  align-items: start;
+}
+@media (max-width: 900px) { .next-body { grid-template-columns: 1fr; } }
+
+.next-col-left p {
+  font-size: 1.125rem;
+  line-height: 1.75;
+  color: rgba(250, 250, 250, 0.82);
+  margin-bottom: 1.25rem;
+  max-width: 54ch;
+}
+.next-col-left p strong {
+  color: var(--dark-ink);
+  font-weight: 600;
+}
+
+.next-fit {
+  margin-top: 2rem;
+  padding-top: 2rem;
+  border-top: 1px solid rgba(250, 250, 250, 0.12);
+}
+.next-fit-label {
+  font-family: var(--display);
+  font-weight: 500;
+  font-size: var(--fs-label);
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: #60a5fa;
+  margin-bottom: 1rem;
+}
+.next-fit-list {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+.next-fit-list li {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: rgba(250, 250, 250, 0.82);
+  padding-left: 1.5rem;
+  position: relative;
+}
+.next-fit-list li::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0.65em;
+  width: 0.75rem;
+  height: 1px;
+  background: #60a5fa;
+}
+.next-fit-list li strong {
+  color: var(--dark-ink);
+  font-weight: 600;
+}
+
+.next-quotes {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.next-quote {
+  padding: 1.75rem 1.75rem 1.75rem 2rem;
+  background: rgba(250, 250, 250, 0.04);
+  border: 1px solid rgba(250, 250, 250, 0.12);
+  border-left: 3px solid #60a5fa;
+  border-radius: 4px;
+}
+.next-quote-num {
+  font-family: var(--mono);
+  font-size: 0.75rem;
+  color: #60a5fa;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  margin-bottom: 0.7rem;
+}
+.next-quote p {
+  font-size: 1.125rem;
+  line-height: 1.55;
+  color: var(--dark-ink);
+  font-weight: 500;
+  letter-spacing: -0.005em;
+}
+.next-quote p strong {
+  font-weight: 700;
+  color: #93c5fd;
+}
+
+/* ═══════════════════════════════════════════════════
+   CONTACT / FOOTER
+═══════════════════════════════════════════════════ */
+.contact {
+  padding: 8rem 0 4rem;
+  background: var(--bg);
+}
+
+.contact-hero {
+  margin-bottom: 4rem;
+  max-width: 940px;
+}
+.contact-hero h2 {
+  font-size: var(--fs-hero);
+  line-height: 1.08;
+  letter-spacing: -0.04em;
+  font-weight: 800;
+  color: var(--ink);
+  margin-bottom: 1.75rem;
+}
+.contact-hero h2 .hl { color: var(--accent); }
+.contact-hero p {
+  font-size: var(--fs-lede);
+  line-height: 1.65;
+  color: var(--ink-3);
+  max-width: 52ch;
+}
+
+/* Primary CTA block */
+.contact-primary {
+  max-width: 640px;
+  margin-bottom: 3rem;
+}
+
+.contact-cta {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1.5rem;
+  padding: 2rem 2.25rem;
+  border: 1px solid var(--hairline);
+  border-radius: 16px;
+  background: var(--surface);
+  color: var(--ink);
+  transition: transform 0.3s cubic-bezier(0.16, 1, 0.3, 1),
+              border-color 0.3s ease,
+              background 0.3s ease,
+              box-shadow 0.3s ease;
+}
+.contact-cta:hover {
+  transform: translateY(-2px);
+  border-color: var(--ink);
+  box-shadow: 0 16px 36px -20px rgba(10, 10, 10, 0.15);
+}
+.contact-cta.primary {
+  background: var(--ink);
+  color: var(--bg);
+  border-color: var(--ink);
+}
+.contact-cta.primary:hover {
+  background: var(--accent);
+  border-color: var(--accent);
+  box-shadow: 0 16px 36px -20px rgba(29, 78, 216, 0.4);
+}
+.contact-cta-left {
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+  min-width: 0;
+}
+.contact-cta-label {
+  font-family: var(--display);
+  font-size: 0.68rem;
+  font-weight: 600;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  opacity: 0.65;
+}
+.contact-cta.primary .contact-cta-label { color: rgba(250, 250, 250, 0.7); opacity: 1; }
+.contact-cta-value {
+  font-family: var(--mono);
+  font-size: 1.15rem;
+  font-weight: 500;
+  letter-spacing: -0.005em;
+  word-break: break-all;
+}
+.contact-cta.primary .contact-cta-value { color: var(--bg); }
+.contact-cta-arrow {
+  width: 20px;
+  height: 20px;
+  stroke-width: 2;
+  flex-shrink: 0;
+  opacity: 0.5;
+  transition: transform 0.3s cubic-bezier(0.16, 1, 0.3, 1), opacity 0.3s ease;
+}
+.contact-cta:hover .contact-cta-arrow {
+  opacity: 1;
+  transform: translate(4px, -4px);
+}
+.contact-cta.primary .contact-cta-arrow { color: var(--bg); }
+
+/* Secondary meta row */
+.contact-meta {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 0;
+  padding: 1.75rem 0;
+  border-top: 1px solid var(--hairline);
+  border-bottom: 1px solid var(--hairline);
+  margin-bottom: 6rem;
+}
+@media (max-width: 720px) {
+  .contact-meta {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+    padding: 1.5rem 0;
+  }
+}
+.contact-meta-item {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+  padding: 0 1.5rem;
+  border-right: 1px solid var(--hairline);
+}
+.contact-meta-item:first-child { padding-left: 0; }
+.contact-meta-item:last-child { border-right: none; padding-right: 0; }
+@media (max-width: 720px) {
+  .contact-meta-item {
+    padding: 0;
+    border-right: none;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid var(--hairline);
+  }
+  .contact-meta-item:last-child { border-bottom: none; padding-bottom: 0; }
+}
+.contact-meta-label {
+  font-family: var(--display);
+  font-size: 0.66rem;
+  font-weight: 600;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--ink-4);
+}
+.contact-meta-value {
+  font-size: 0.95rem;
+  font-weight: 500;
+  color: var(--ink);
+  letter-spacing: -0.005em;
+  line-height: 1.5;
+}
+
+/* Legacy (kept minimal just in case) */
+.contact-value a:hover {
+  color: var(--accent);
+}
+
+/* ═══════════════════════════════════════════════════
+   REVEAL
+═══════════════════════════════════════════════════ */
+.reveal {
+  opacity: 0;
+  transform: translateY(16px);
+  transition: opacity 0.9s cubic-bezier(0.16, 1, 0.3, 1),
+              transform 0.9s cubic-bezier(0.16, 1, 0.3, 1);
+}
+.reveal.in { opacity: 1; transform: translateY(0); }
+.reveal.d1 { transition-delay: 0.08s; }
+.reveal.d2 { transition-delay: 0.16s; }
+.reveal.d3 { transition-delay: 0.24s; }
+.reveal.d4 { transition-delay: 0.32s; }
+
+@media (prefers-reduced-motion: reduce) {
+  .reveal { opacity: 1; transform: none; }
+  * { animation: none !important; transition: none !important; }
+}
+
+/* ═══════════════════════════════════════════════════
+   SIDE DOT NAVIGATION
+═══════════════════════════════════════════════════ */
+.side-nav {
+  position: fixed;
+  right: 2rem;
+  top: 50%;
+  transform: translateY(-50%);
+  display: flex;
+  flex-direction: column;
+  gap: 0.9rem;
+  z-index: 50;
+}
+.side-nav-dot {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  border: 1px solid var(--ink-5);
+  background: transparent;
+  position: relative;
+  cursor: pointer;
+  transition: background 0.3s ease, border-color 0.3s ease, transform 0.3s ease;
+}
+.side-nav-dot:hover {
+  border-color: var(--ink-3);
+}
+.side-nav-dot.active {
+  background: var(--ink);
+  border-color: var(--ink);
+}
+.side-nav-dot::after {
+  content: attr(data-label);
+  position: absolute;
+  right: calc(100% + 14px);
+  top: 50%;
+  transform: translateY(-50%) translateX(6px);
+  font-family: var(--display);
+  font-size: 0.68rem;
+  font-weight: 600;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--ink-2);
+  background: var(--surface);
+  padding: 0.4rem 0.7rem;
+  border: 1px solid var(--hairline);
+  border-radius: 6px;
+  white-space: nowrap;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.25s ease, transform 0.25s ease;
+  box-shadow: 0 4px 12px -4px rgba(10, 10, 10, 0.1);
+}
+.side-nav-dot:hover::after {
+  opacity: 1;
+  transform: translateY(-50%) translateX(0);
+}
+/* Dark-section invert */
+.side-nav.on-dark .side-nav-dot {
+  border-color: rgba(250, 250, 250, 0.4);
+}
+.side-nav.on-dark .side-nav-dot:hover {
+  border-color: var(--dark-ink);
+}
+.side-nav.on-dark .side-nav-dot.active {
+  background: var(--dark-ink);
+  border-color: var(--dark-ink);
+}
+.side-nav.on-dark .side-nav-dot::after {
+  background: var(--dark-bg-2);
+  color: var(--dark-ink);
+  border-color: rgba(250, 250, 250, 0.15);
+}
+@media (max-width: 1024px) {
+  .side-nav { display: none; }
+}
+
+/* ═══════════════════════════════════════════════════
+   DECISIONS SECTION — 판단 카드 3장
+═══════════════════════════════════════════════════ */
+.decisions-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.25rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.decision-card {
+  position: relative;
+  padding: 2.1rem 1.85rem 1.75rem;
+  background: var(--surface);
+  border: 1px solid var(--hairline);
+  border-radius: 14px;
+  overflow: hidden;
+  isolation: isolate;
+  transition:
+    border-color 320ms var(--ease-smooth),
+    transform 420ms var(--ease-spring),
+    box-shadow 320ms var(--ease-smooth);
+  display: flex;
+  flex-direction: column;
+}
+
+/* Left accent bar — Key Decision DNA 일관성 (같은 블루 그라디언트) */
+.decision-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 3px;
+  height: 100%;
+  background: linear-gradient(180deg, #60a5fa 0%, #1d4ed8 100%);
+  opacity: 0.85;
+}
+
+/* Hover: subtle radial glow — .project::before와 같은 패턴 */
+.decision-card::after {
+  content: '';
+  position: absolute;
+  top: -40%;
+  right: -20%;
+  width: 55%;
+  height: 180%;
+  background: radial-gradient(circle, rgba(29, 78, 216, 0.07) 0%, transparent 65%);
+  z-index: -1;
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity 420ms cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+.decision-card:hover {
+  border-color: rgba(29, 78, 216, 0.28);
+  transform: translateY(-2px);
+  box-shadow: 0 12px 28px -18px rgba(10, 10, 10, 0.18);
+}
+.decision-card:hover::after { opacity: 1; }
+
+.decision-num {
+  font-family: var(--display);
+  font-size: 0.72rem;
+  font-weight: 600;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: var(--accent);
+  margin-bottom: 1.15rem;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.55rem;
+}
+.decision-num::before {
+  content: '';
+  width: 0.9rem;
+  height: 1px;
+  background: var(--accent);
+}
+
+.decision-q {
+  font-family: var(--sans);
+  font-size: 1.15rem;
+  font-weight: 700;
+  line-height: 1.4;
+  letter-spacing: -0.015em;
+  color: var(--ink);
+  margin-bottom: 1.6rem;
+}
+
+.decision-row {
+  padding-top: 0.9rem;
+  border-top: 1px solid var(--hairline);
+}
+.decision-row + .decision-row { margin-top: 0.9rem; }
+
+.decision-label {
+  font-family: var(--display);
+  font-size: 0.64rem;
+  font-weight: 600;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--ink-4);
+  margin-bottom: 0.45rem;
+  display: block;
+}
+
+.decision-body {
+  font-size: 0.875rem;
+  line-height: 1.65;
+  color: var(--ink-2);
+  margin: 0;
+}
+.decision-body strong {
+  color: var(--ink);
+  font-weight: 600;
+}
+.decision-body code {
+  font-family: var(--mono);
+  font-size: 0.78rem;
+  padding: 0.08rem 0.35rem;
+  background: var(--surface-alt);
+  border-radius: 4px;
+  color: var(--ink);
+  letter-spacing: 0;
+}
+
+.decision-tag {
+  margin-top: auto;
+  padding-top: 1.35rem;
+  font-family: var(--display);
+  font-size: 0.68rem;
+  font-weight: 500;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--ink-4);
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.55rem;
+  align-self: flex-start;
+  transition: color 200ms ease;
+}
+.decision-tag:hover { color: var(--ink); }
+.decision-tag::before {
+  content: '';
+  width: 0.42rem;
+  height: 0.42rem;
+  border-radius: 50%;
+  background: var(--accent);
+}
+.decision-tag.live::before {
+  background: #10b981;
+  box-shadow: 0 0 0 3px rgba(16, 185, 129, 0.18);
+  animation: decision-pulse 2.2s ease-in-out infinite;
+}
+
+@keyframes decision-pulse {
+  0%, 100% { box-shadow: 0 0 0 3px rgba(16, 185, 129, 0.18); }
+  50%      { box-shadow: 0 0 0 5px rgba(16, 185, 129, 0.08); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .decision-tag.live::before { animation: none; }
+  .decision-card,
+  .decision-card::after { transition: none; }
+  .decision-card:hover { transform: none; }
+}
+
+/* Tablet — 1-col premium editorial stack */
+@media (max-width: 960px) {
+  .decisions-grid {
+    grid-template-columns: 1fr;
+    max-width: 680px;
+    gap: 1rem;
+  }
+  .decision-card { padding: 1.85rem 1.6rem 1.55rem; }
+  .decision-q { font-size: 1.1rem; }
+}
+
+@media (max-width: 640px) {
+  .decision-card { padding: 1.55rem 1.3rem 1.35rem; }
+  .decision-q { font-size: 1.02rem; margin-bottom: 1.3rem; }
+  .decision-body { font-size: 0.85rem; }
+  .decision-num { font-size: 0.68rem; margin-bottom: 1rem; }
+  .decision-row { padding-top: 0.8rem; }
+  .decision-row + .decision-row { margin-top: 0.8rem; }
+}
+
+/* ═══════════════════════════════════════════════════
+   TERMINAL CODE BLOCK
+═══════════════════════════════════════════════════ */
+.code-block {
+  margin: 2rem 0 2.5rem;
+  background: #0a0a0a;
+  border-radius: 12px;
+  overflow: hidden;
+  border: 1px solid rgba(250, 250, 250, 0.08);
+  box-shadow: 0 10px 30px -15px rgba(10, 10, 10, 0.25);
+}
+.code-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.7rem 1rem;
+  background: #1a1a1a;
+  border-bottom: 1px solid rgba(250, 250, 250, 0.06);
+}
+.code-header-left {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+.code-header-dots {
+  display: flex;
+  gap: 0.4rem;
+}
+.code-header-dot {
+  width: 11px;
+  height: 11px;
+  border-radius: 50%;
+}
+.code-header-dot:nth-child(1) { background: #ff5f56; }
+.code-header-dot:nth-child(2) { background: #ffbd2e; }
+.code-header-dot:nth-child(3) { background: #27c93f; }
+.code-header-file {
+  font-family: var(--mono);
+  font-size: 0.72rem;
+  color: rgba(250, 250, 250, 0.5);
+  letter-spacing: 0.02em;
+}
+.code-header-lang {
+  font-family: var(--display);
+  font-size: 0.62rem;
+  font-weight: 600;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: rgba(250, 250, 250, 0.4);
+  padding: 0.3rem 0.6rem;
+  border: 1px solid rgba(250, 250, 250, 0.1);
+  border-radius: 4px;
+}
+.code-body {
+  padding: 1.25rem 1.25rem 1.5rem;
+  font-family: var(--mono);
+  font-size: 0.78rem;
+  line-height: 1.75;
+  color: rgba(250, 250, 250, 0.88);
+  overflow-x: auto;
+  white-space: pre;
+  margin: 0;
+}
+.code-body .tk-k { color: #ff79c6; font-weight: 500; }
+.code-body .tk-s { color: #f1fa8c; }
+.code-body .tk-c { color: rgba(250, 250, 250, 0.35); font-style: italic; }
+.code-body .tk-n { color: #8be9fd; }
+.code-body .tk-t { color: #bd93f9; }
+.code-body .tk-a { color: #50fa7b; }
+@media (max-width: 640px) {
+  .code-body { font-size: 0.7rem; padding: 1rem 0.9rem 1.25rem; }
+  .code-header-file { font-size: 0.65rem; }
+  .code-header-lang { display: none; }
+}
+
+/* ═══════════════════════════════════════════════════
+   STACK SECTION
+═══════════════════════════════════════════════════ */
+.stack-section {
+  background: var(--bg);
+  border-top: 1px solid var(--hairline);
+}
+.stack-intro {
+  max-width: 960px;
+  margin: 0 auto 4rem;
+  text-align: center;
+}
+.stack-intro .section-title,
+.stack-intro .section-lede {
+  margin-left: auto;
+  margin-right: auto;
+}
+.stack-intro .section-title { max-width: 24ch; }
+.stack-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1.25rem;
+}
+@media (max-width: 900px) {
+  .stack-grid { grid-template-columns: repeat(2, 1fr); }
+}
+@media (max-width: 520px) {
+  .stack-grid { grid-template-columns: 1fr; }
+}
+.stack-cat {
+  padding: 1.85rem 1.6rem;
+  background: var(--surface);
+  border: 1px solid var(--hairline);
+  border-radius: 14px;
+  transition: transform 0.3s ease, border-color 0.3s ease, box-shadow 0.3s ease;
+}
+.stack-cat:hover {
+  transform: translateY(-3px);
+  border-color: var(--ink-5);
+  box-shadow: 0 12px 28px -18px rgba(10, 10, 10, 0.15);
+}
+.stack-cat-label {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-family: var(--display);
+  font-size: 0.7rem;
+  font-weight: 600;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--ink-3);
+  margin-bottom: 1rem;
+  padding-bottom: 0.85rem;
+  border-bottom: 1px solid var(--hairline);
+}
+.stack-cat-label::before {
+  content: '';
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: var(--ink);
+}
+.stack-cat-list {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.55rem;
+}
+.stack-cat-list li {
+  font-family: var(--mono);
+  font-size: 0.82rem;
+  color: var(--ink-2);
+  line-height: 1.5;
+}
+.stack-cat-list li .hint {
+  color: var(--ink-4);
+  font-size: 0.72rem;
+  margin-left: 0.25rem;
+}
+
+/* ═══════════════════════════════════════════════════
+   MICRO INTERACTIONS 강화
+═══════════════════════════════════════════════════ */
+.project:hover {
+  border-color: rgba(29, 78, 216, 0.35);
+  box-shadow:
+    0 16px 40px -20px rgba(10, 10, 10, 0.1),
+    0 0 0 1px rgba(29, 78, 216, 0.1),
+    0 0 40px -10px rgba(29, 78, 216, 0.08);
+}
+.metric:not(:first-child):hover {
+  background: var(--accent-soft);
+}
+.metric:not(:first-child):hover .metric-val {
+  color: var(--accent);
+}
+.metric:not(:first-child):hover .metric-label {
+  color: var(--accent-hover);
+}
+.hero-stat-val[data-count] { display: inline-block; min-width: 1.5ch; }
+
+/* ═══════════════════════════════════════════════════
+   TIER 3 · HERO WORD-STAGGER REVEAL
+═══════════════════════════════════════════════════ */
+.hero-title-split .word,
+.hero-title-split .word-group {
+  display: inline-block;
+  opacity: 0;
+  transform: translateY(28px);
+  transition: opacity 0.85s cubic-bezier(0.16, 1, 0.3, 1),
+              transform 0.85s cubic-bezier(0.16, 1, 0.3, 1);
+  will-change: opacity, transform;
+}
+.hero-title-split.in .word,
+.hero-title-split.in .word-group {
+  opacity: 1;
+  transform: translateY(0);
+}
+@media (prefers-reduced-motion: reduce) {
+  .hero-title-split .word,
+  .hero-title-split .word-group {
+    opacity: 1;
+    transform: none;
+    transition: none;
+  }
+}
+
+/* ═══════════════════════════════════════════════════
+   TIER 3 · SVG LIVE DATA FLOW DOTS
+═══════════════════════════════════════════════════ */
+.flow-dot {
+  filter: drop-shadow(0 0 3px currentColor);
+}
+@media (prefers-reduced-motion: reduce) {
+  .flow-dot, .flow-dot * { animation: none !important; }
+  .flow-dot { display: none; }
+}
+
+/* ═══════════════════════════════════════════════════
+   TIER 3 · FOOTER 전면 고도화
+═══════════════════════════════════════════════════ */
+.footer {
+  margin-top: 4rem;
+  padding-top: 0;
+  border-top: none;
+  display: block;
+  flex-wrap: unset;
+  gap: 0;
+  font-family: var(--sans);
+  font-size: 0.875rem;
+  font-weight: 400;
+  color: var(--ink-3);
+}
+.footer-grid {
+  display: grid;
+  grid-template-columns: 1.4fr 1fr 1.3fr 1fr;
+  gap: 3rem;
+  padding: 3.5rem 0 3rem;
+  border-top: 1px solid var(--hairline);
+}
+@media (max-width: 820px) {
+  .footer-grid {
+    grid-template-columns: 1fr 1fr;
+    gap: 2.5rem 2rem;
+  }
+}
+@media (max-width: 520px) {
+  .footer-grid { grid-template-columns: 1fr; gap: 2.25rem; }
+}
+.footer-col-label {
+  font-family: var(--display);
+  font-size: 0.68rem;
+  font-weight: 600;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--ink-4);
+  margin-bottom: 1rem;
+  padding-bottom: 0.75rem;
+  border-bottom: 1px solid var(--hairline);
+}
+.footer-brand-col .footer-brand {
+  font-family: var(--sans);
+  font-size: 1.15rem;
+  font-weight: 700;
+  color: var(--ink);
+  letter-spacing: -0.015em;
+  margin-bottom: 0.65rem;
+  display: flex;
+  align-items: center;
+  gap: 0.55rem;
+}
+.footer-brand-col .footer-brand::before {
+  content: '';
+  width: 8px; height: 8px;
+  background: var(--ink);
+  border-radius: 50%;
+  display: inline-block;
+}
+.footer-brand-col p {
+  color: var(--ink-3);
+  line-height: 1.65;
+  margin: 0 0 1rem;
+  max-width: 32ch;
+  font-size: 0.9rem;
+}
+.footer-brand-col .footer-email {
+  font-family: var(--mono);
+  font-size: 0.82rem;
+  color: var(--ink);
+  border-bottom: 1px solid transparent;
+  transition: border-color 0.2s ease, color 0.2s ease;
+}
+.footer-brand-col .footer-email:hover {
+  border-bottom-color: var(--accent);
+  color: var(--accent);
+}
+.footer-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.55rem;
+}
+.footer-list li {
+  font-size: 0.85rem;
+  line-height: 1.55;
+  color: var(--ink-3);
+}
+.footer-list li a {
+  color: var(--ink-2);
+  transition: color 0.2s ease;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+}
+.footer-list li a:hover { color: var(--accent); }
+.footer-list li a svg {
+  width: 11px; height: 11px;
+  stroke-width: 2;
+  opacity: 0.5;
+  transition: opacity 0.2s, transform 0.2s;
+}
+.footer-list li a:hover svg { opacity: 1; transform: translate(2px, -2px); }
+.footer-list li .mono {
+  font-family: var(--mono);
+  font-size: 0.78rem;
+  color: var(--ink-3);
+}
+.footer-list li .mono .v {
+  color: var(--ink);
+  font-weight: 500;
+}
+.footer-bottom {
+  padding: 1.5rem 0 0;
+  border-top: 1px solid var(--hairline);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+  font-family: var(--sans);
+  font-size: 0.78rem;
+  color: var(--ink-4);
+}
+.footer-bottom .footer-version {
+  font-family: var(--mono);
+  font-size: 0.74rem;
+  padding: 0.3rem 0.65rem;
+  background: var(--surface);
+  border: 1px solid var(--hairline);
+  border-radius: 4px;
+  color: var(--ink-3);
+  letter-spacing: 0.02em;
+}
+.footer-bottom .footer-version .dot {
+  display: inline-block;
+  width: 6px;
+  height: 6px;
+  background: #10b981;
+  border-radius: 50%;
+  margin-right: 0.5rem;
+  vertical-align: middle;
+}
+
+/* ═══════════════════════════════════════════════════
+   TIER 3 · PRINT STYLESHEET (흑백 문서 출력)
+═══════════════════════════════════════════════════ */
+@media print {
+  *, *::before, *::after {
+    background: transparent !important;
+    color: #000 !important;
+    box-shadow: none !important;
+    text-shadow: none !important;
+    animation: none !important;
+    transition: none !important;
+  }
+  html, body {
+    font-size: 10.5pt;
+    line-height: 1.5;
+    color: #000;
+    background: #fff;
+  }
+  .header,
+  .side-nav,
+  .hero-cta,
+  .hero-scroll,
+  .hero-eyebrow,
+  .badge.live::before {
+    display: none !important;
+  }
+  .hero {
+    min-height: auto;
+    padding: 2rem 0 1.5rem;
+    page-break-after: avoid;
+  }
+  .hero-title {
+    font-size: 22pt;
+    line-height: 1.25;
+  }
+  .hero-title .highlight,
+  .highlight,
+  .hl {
+    color: #000 !important;
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 3px;
+  }
+  section.page, .next, .contact {
+    padding: 1.5rem 0;
+    page-break-inside: avoid;
+    border: none !important;
+  }
+  .project {
+    page-break-inside: avoid;
+    border: 1px solid #ddd !important;
+    padding: 1.25rem !important;
+    margin-bottom: 0.75rem;
+  }
+  .decisions-grid {
+    display: grid !important;
+    grid-template-columns: 1fr 1fr 1fr !important;
+    gap: 0.5rem !important;
+  }
+  .decision-card {
+    background: #fff !important;
+    border: 1px solid #000 !important;
+    padding: 0.85rem !important;
+    page-break-inside: avoid;
+  }
+  .decision-card::before,
+  .decision-card::after { display: none !important; }
+  .decision-q { color: #000 !important; font-size: 10pt !important; }
+  .decision-body { color: #333 !important; font-size: 8.5pt !important; }
+  .decision-label { color: #555 !important; }
+  .decision-num,
+  .decision-tag { color: #000 !important; }
+  .decision-tag::before,
+  .decision-tag.live::before { background: #000 !important; box-shadow: none !important; animation: none !important; }
+  .code-block,
+  .arch-diagram--craft {
+    background: #fff !important;
+  }
+  .code-body {
+    color: #000 !important;
+    font-size: 8pt;
+  }
+  .code-body [class*="tk-"] { color: #000 !important; }
+  .metric:first-child {
+    background: #fff !important;
+    color: #000 !important;
+    border: 1px solid #000 !important;
+  }
+  .metric:first-child .metric-val,
+  .metric:first-child .metric-label { color: #000 !important; }
+  a[href]:not([href^="#"]):not([href^="javascript"])::after {
+    content: " (" attr(href) ")";
+    font-size: 0.85em;
+    color: #666 !important;
+    word-break: break-all;
+  }
+  .footer-grid {
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    padding: 1rem 0;
+  }
+  .next::before, .hero::before, .hero::after { display: none !important; }
+  img, svg {
+    max-width: 100% !important;
+    page-break-inside: avoid;
+  }
+  h1, h2, h3, h4 { page-break-after: avoid; }
+  p, li { page-break-inside: avoid; }
+}
+
+</style>
+
+</head>
+<body>
+
+<!-- Skip to content · a11y keyboard users -->
+<a href="#top" class="skip-link">본문으로 바로 가기</a>
+
+<!-- Side dot navigation (desktop only) -->
+<nav class="side-nav" aria-label="섹션 네비게이션">
+  <a href="#top" class="side-nav-dot active" data-label="시작" data-target="top" aria-label="페이지 맨 위로"><span class="sr-only">시작</span></a>
+  <a href="#about" class="side-nav-dot" data-label="소개" data-target="about" aria-label="소개 섹션으로 이동"><span class="sr-only">소개</span></a>
+  <a href="#decisions" class="side-nav-dot" data-label="판단" data-target="decisions" aria-label="판단 섹션으로 이동"><span class="sr-only">판단</span></a>
+  <a href="#work" class="side-nav-dot" data-label="작업" data-target="work" aria-label="작업 섹션으로 이동"><span class="sr-only">작업</span></a>
+  <a href="#craft" class="side-nav-dot" data-label="원칙" data-target="craft" aria-label="원칙 섹션으로 이동"><span class="sr-only">원칙</span></a>
+  <a href="#stack" class="side-nav-dot" data-label="스택" data-target="stack" aria-label="스택 섹션으로 이동"><span class="sr-only">스택</span></a>
+  <a href="#next" class="side-nav-dot" data-label="지향" data-target="next" aria-label="지향 섹션으로 이동"><span class="sr-only">지향</span></a>
+  <a href="#contact" class="side-nav-dot" data-label="연락" data-target="contact" aria-label="연락 섹션으로 이동"><span class="sr-only">연락</span></a>
+</nav>
+
+<!-- HEADER -->
+<header class="header">
+  <div class="header-inner">
+    <a href="#top" class="header-brand">윤상훈</a>
+    <nav class="header-nav" aria-label="주 네비게이션">
+      <a href="#about" class="nav-link">소개</a>
+      <a href="#decisions" class="nav-link">판단</a>
+      <a href="#work" class="nav-link">작업</a>
+      <a href="#craft" class="nav-link">원칙</a>
+      <a href="#stack" class="nav-link">스택</a>
+      <a href="#contact" class="cta">연락</a>
+    </nav>
+  </div>
+</header>
+
+<main id="top">
+
+<!-- HERO -->
+<section class="hero container">
+  <!-- WebGL 3D particle network · tier 4-H (lazy initialized from JS) -->
+  <canvas class="hero-webgl" id="hero-webgl" aria-hidden="true"></canvas>
+
+  <!-- Architecture signature: thin line art layer (tier 4-10) -->
+  <svg class="hero-signature" aria-hidden="true" viewBox="0 0 1440 800" preserveAspectRatio="xMidYMid slice">
+    <!-- Connection lines -->
+    <line class="link-static" x1="108" y1="120" x2="412" y2="280"/>
+    <line class="link-static" x1="268" y1="180" x2="412" y2="280"/>
+    <line class="link-flow"   x1="432" y1="280" x2="610" y2="340"/>
+
+    <!-- Nodes -->
+    <!-- N1 client A -->
+    <circle class="node-stroke" cx="100" cy="120" r="8"/>
+    <!-- N2 client B -->
+    <circle class="node-stroke" cx="260" cy="180" r="8"/>
+    <!-- N3 proxy (hub, larger + inner dot) -->
+    <circle class="node-stroke" cx="420" cy="280" r="12"/>
+    <circle class="node-center" cx="420" cy="280" r="2"/>
+    <!-- N4 service/database -->
+    <circle class="node-stroke" cx="620" cy="340" r="8"/>
+  </svg>
+
+  <div class="hero-eyebrow reveal">Available · Seoul, Korea</div>
+
+  <h1 class="hero-title hero-title-split reveal d1">
+    <span class="word-group highlight"><span class="word">기획자</span> <span class="word">없이</span></span> <span class="word">제품을</span> <span class="word">만들고,</span><br>
+    <span class="word">현장의</span> <span class="word">언어로</span> <span class="word">전달합니다.</span>
+  </h1>
+
+  <p class="hero-sub reveal d2">
+    한화오션 엔지니어 3년 4개월, 대치동 컨설팅 4년을 거쳐
+    <strong>AI 프로덕트 3개를 단독 구축</strong>했고, <strong>1개는 현재 운영 중</strong>입니다.
+  </p>
+
+  <div class="hero-stats reveal d3">
+    <div class="hero-stat">
+      <div class="hero-stat-val" data-count="3">3</div>
+      <div class="hero-stat-label">Shipped<br>AI Products</div>
+    </div>
+    <div class="hero-stat">
+      <div class="hero-stat-val" data-count="4.36">4.36</div>
+      <div class="hero-stat-label">Univ GPA<br>Rank 1</div>
+    </div>
+    <div class="hero-stat">
+      <div class="hero-stat-val" data-count="4">4</div>
+      <div class="hero-stat-label">Years<br>Consulting</div>
+    </div>
+    <div class="hero-stat">
+      <div class="hero-stat-val" data-count="970">970</div>
+      <div class="hero-stat-label">TOEIC<br>2025.06</div>
+    </div>
+  </div>
+
+  <div class="hero-cta reveal d4">
+    <a href="#work" class="hero-cta-btn primary">
+      대표 프로젝트 보기
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 5l7 7-7 7"/></svg>
+    </a>
+    <a href="#contact" class="hero-cta-btn secondary">
+      연락 / 협업 문의
+    </a>
+  </div>
+
+  <div class="hero-scroll reveal d5">Scroll</div>
+</section>
+
+<!-- 01 ABOUT -->
+<section class="page about" id="about">
+  <div class="container">
+    <div class="about-intro">
+      <div class="eyebrow reveal"><span class="eyebrow-num">01</span> About</div>
+      <h2 class="section-title reveal d1">
+        진짜 문제를 찾아내는 <span class="highlight">빌더의 눈</span>
+      </h2>
+      <p class="section-lede reveal d2">
+        엔지니어링 3년, 컨설팅 4년. 서로 멀어 보이는 두 경력은 같은 본질에서 만납니다.
+        서로 다른 언어를 쓰는 이해관계자의 실제 문제를 정확한 언어로 번역하는 일입니다.
+      </p>
+    </div>
+
+    <div class="timeline">
+
+      <article class="timeline-item reveal">
+        <div class="timeline-meta">
+          <span class="period">2014.03 — 2017.06</span>
+          <span class="duration">3년 4개월</span>
+        </div>
+        <h3 class="timeline-title">기술 언어의 번역자</h3>
+        <div class="timeline-subtitle">한화오션(주) · 특수선무장설계팀 · 통신/무장 기본설계</div>
+        <div class="timeline-body">
+          <p>
+            장보고-III 잠수함 프로젝트에서 독일 제조사(영어 핫라인)와 조달부서·배관·전장설계부서 사이의
+            생산설계 이슈를 조율하고, 국방과학연구소 보고 자료를 취합·정리했습니다.
+          </p>
+          <p>
+            각 부서는 같은 한국어를 쓰면서도 서로 다른 개념으로 '같은 문제'를 이야기했습니다.
+            한쪽에서 '불량'이라 부르는 것이 다른 쪽에선 '스펙 불일치'였고, 또 다른 쪽에선 '납기 리스크'였습니다.
+          </p>
+          <p class="emph">
+            일의 본질은 결국 서로 다른 언어를 쓰는 이해관계자의 실제 문제를 정확한 언어로 번역하는 것이었습니다.
+          </p>
+          <p>
+            여기서 구조화된 커뮤니케이션과 책임 있는 실행 습관이 만들어졌습니다.
+            지금도 비개발 직군과의 소통과 보고에서 그대로 쓰이는 근력입니다.
+          </p>
+        </div>
+      </article>
+
+      <article class="timeline-item reveal">
+        <div class="timeline-meta">
+          <span class="period">2018.03 — 2022.04</span>
+          <span class="duration">4년 (중퇴)</span>
+        </div>
+        <h3 class="timeline-title">새 분야에서 수석까지</h3>
+        <div class="timeline-subtitle">한서대학교 항공운항학과</div>
+        <div class="timeline-body">
+          <p>
+            한화오션 퇴사 후 다시 수능을 쳐서 한서대학교 항공운항학과에 입학, 3학년 1학기까지 수료.
+            학점 4.36 / 전체 석차 1위, 교내 성적장학금 4회·이공계 장학금 전액 — <strong>새 분야에서 빠르게
+            최상위 수준까지 끌어올리는 패턴</strong>이 지금 AI Native 전환에서 같은 방식으로 작동하고 있습니다.
+          </p>
+        </div>
+      </article>
+
+      <article class="timeline-item reveal">
+        <div class="timeline-meta">
+          <span class="period">2022.04 — Present</span>
+          <span class="duration">4년+</span>
+        </div>
+        <h3 class="timeline-title">수백 명 단위의 대면 컨설팅</h3>
+        <div class="timeline-subtitle">대치동 입시 컨설팅 · 프리랜서 컨설턴트</div>
+        <div class="timeline-body">
+          <p>
+            매년 바뀌는 입시제도 안에서 매 시즌 수백 명의 학생·학부모를 대면 컨설팅했습니다.
+            수능 직후부터 원서 접수 마감까지 약 3~4주 동안, 사전 설문 → 대면 상담 → 후속 관리 → 파이널 콜로
+            이어지는 고밀도 프로세스를 매 시즌 안정적으로 운영해 왔습니다.
+          </p>
+          <p>
+            이 환경에서 가장 깊이 배운 것은 <strong>고객이 요청한 것과 실제로 필요한 것이
+            다를 수 있다는 감각</strong>입니다. 학부모가 묻는 질문 뒤에 놓인 진짜 불안,
+            학생이 말하지 않는 진짜 목표를 먼저 읽어야 제대로 된 컨설팅이 됩니다.
+          </p>
+          <p class="emph">
+            무작정 솔루션을 꺼내기보다 “이게 정말 필요한 일인가”를 먼저 묻는 훈련이 쌓였고,
+            재등록·지인 추천으로 결과가 확인됐습니다.
+          </p>
+        </div>
+      </article>
+
+      <article class="timeline-item current reveal">
+        <div class="timeline-meta">
+          <span class="period">2026.02 — Present</span>
+          <span class="duration">두 달여</span>
+        </div>
+        <h3 class="timeline-title">엔지니어링 + 컨설팅 + AI Native</h3>
+        <div class="timeline-subtitle">AI 풀스택 빌더 · 前 에듀테크 스타트업 · 현재 프리랜서</div>
+        <div class="timeline-body">
+          <p>
+            최근 AI를 개발 파트너로 본격 활용하기 시작했습니다. 방산 엔지니어링에서 익힌
+            구조적 사고, 4년간의 B2C 컨설팅에서 길러진 고객 감각 위에
+            Claude·Gemini·ChatGPT·Codex를 코딩 파트너로 얹자, 짧은 기간 안에 세 개의 실제
+            프로덕트가 나왔습니다.
+          </p>
+          <p class="emph">
+            빠른 실행을 만드는 것은 학습 속도와, 만들 가치가 있는 것을 판단하는 눈입니다.
+          </p>
+          <p>
+            AI는 구현 속도를 크게 높여주지만, <strong>무엇을 만들고 어떤 구조로 운영할지</strong>는
+            여전히 사람의 판단 영역입니다. 방산에서는 국방과학연구소까지 가는 보고 구조를,
+            대치동에서는 매 시즌 수백 명의 의사결정 상황을 — 저는 정확히 그 판단력을 훈련해왔습니다.
+          </p>
+        </div>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+<!-- 02 DECISIONS -->
+<section class="page decisions-section" id="decisions">
+  <div class="container">
+    <div class="about-intro">
+      <div class="eyebrow reveal"><span class="eyebrow-num">02</span> Decisions</div>
+      <h2 class="section-title reveal d1">
+        같은 기능을 구현하는 방법은 많지만,<br>
+        <span class="highlight">어떤 판단은 실제 운영 환경에서만</span> 나옵니다
+      </h2>
+      <p class="section-lede reveal d2">
+        세 프로덕트에서 내린 핵심 설계 판단 세 가지.
+        "더 많이 하는 것"이 아니라 <strong>"실패해도 사용자가 눈치 못 채게 하는 것"</strong>이 설계의 기준이었습니다.
+      </p>
+    </div>
+
+    <div class="decisions-grid">
+
+      <!-- Decision 01 — Realtime + Polling Fallback -->
+      <article class="decision-card reveal">
+        <div class="decision-num">01</div>
+        <h3 class="decision-q">왜 최신 Realtime 대신 2초 폴링을 백업으로 남겼나?</h3>
+
+        <div class="decision-row">
+          <span class="decision-label">Context</span>
+          <p class="decision-body">
+            현장은 Wi-Fi 품질이 일정하지 않습니다. WebSocket이 수 초 끊기면 라운드 오픈·투표 마감 같은 <strong>타이밍 크리티컬한 순간에 UI가 stale</strong>해지고, 이는 현장 운영 자체의 붕괴로 직결됩니다.
+          </p>
+        </div>
+        <div class="decision-row">
+          <span class="decision-label">Decision</span>
+          <p class="decision-body">
+            Realtime을 Primary, <strong>2초 간격의 얇은 폴링을 Fallback</strong>으로 병행. 네트워크가 깜빡여도 최대 2초 안에 상태가 복구됩니다.
+          </p>
+        </div>
+        <div class="decision-row">
+          <span class="decision-label">Trade-off</span>
+          <p class="decision-body">
+            서버 부하 미세 증가(Edge Functions 무료 티어 내 수렴) ↔ <strong>화면 stale 위험 제거.</strong>
+          </p>
+        </div>
+
+        <a href="#work" class="decision-tag live">실시간 매칭 웹앱 · Live</a>
+      </article>
+
+      <!-- Decision 02 — Human-in-the-loop -->
+      <article class="decision-card reveal d1">
+        <div class="decision-num">02</div>
+        <h3 class="decision-q">왜 완전 자동화가 아니라 Human-in-the-loop를 선택했나?</h3>
+
+        <div class="decision-row">
+          <span class="decision-label">Context</span>
+          <p class="decision-body">
+            전 공정 자동 생성은 구현이 쉽지만, YouTube 등 플랫폼이 <strong>완전 자동 생성 콘텐츠 제재</strong>를 점점 강화하는 방향으로 움직이고 있었습니다. 운영 계정·채널 보호가 우선 조건이었습니다.
+          </p>
+        </div>
+        <div class="decision-row">
+          <span class="decision-label">Decision</span>
+          <p class="decision-body">
+            짧은 편집 개입 구간을 <strong>의도적으로</strong> 남김. 스크립트 수정·팩트 보정·최종 승인을 사람이 통과시키는 HITL 게이트 유지.
+          </p>
+        </div>
+        <div class="decision-row">
+          <span class="decision-label">Trade-off</span>
+          <p class="decision-body">
+            자동화 효율 일부 감소 ↔ <strong>리스크를 플랫폼이 아니라 사람과 나눠 가짐.</strong>
+          </p>
+        </div>
+
+        <a href="#work" class="decision-tag">멀티 AI 영상 제작 앱 · Shipped</a>
+      </article>
+
+      <!-- Decision 03 — BFF Proxy -->
+      <article class="decision-card reveal d2">
+        <div class="decision-num">03</div>
+        <h3 class="decision-q">왜 Electron 앱에서 API를 직접 호출하지 않았나?</h3>
+
+        <div class="decision-row">
+          <span class="decision-label">Context</span>
+          <p class="decision-body">
+            데스크톱 앱은 코드가 클라이언트에 통째로 배포됩니다. API 키를 번들에 심으면 <code>asar</code> 언패킹·메모리 덤프만으로 <strong>평문 키가 그대로 노출</strong>됩니다.
+          </p>
+        </div>
+        <div class="decision-row">
+          <span class="decision-label">Decision</span>
+          <p class="decision-body">
+            클라이언트에는 사용자 JWT만 두고, 실제 API 호출은 <strong>Supabase Edge Functions 프록시</strong>가 대신 수행. 전형적인 BFF(Backend for Frontend) 패턴.
+          </p>
+        </div>
+        <div class="decision-row">
+          <span class="decision-label">Trade-off</span>
+          <p class="decision-body">
+            추가 레이턴시 수십 ms ↔ <strong>키 노출 방지 + 서버 측 레이트 리밋·쿼터·로그 통합 제어.</strong>
+          </p>
+        </div>
+
+        <a href="#work" class="decision-tag">SNS 트렌드 데스크톱 앱 · Shipped</a>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+<!-- 03 WORK -->
+<section class="page" id="work">
+  <div class="container">
+    <div class="about-intro">
+      <div class="eyebrow reveal"><span class="eyebrow-num">03</span> Work</div>
+      <h2 class="section-title reveal d1">
+        직접 설계하고, 배포하고, 운영한<br>
+        <span class="highlight">세 개의 실제 프로덕트</span>
+      </h2>
+      <p class="section-lede reveal d2">
+        기획·설계·개발·배포·운영까지 혼자 수행한 세 프로덕트.
+        AI 보조 개발의 속도와, 실제 사용자 환경에서 무너지지 않는 안정성을 동시에 챙겼습니다.
+      </p>
+    </div>
+
+    <div class="work-grid">
+
+      <!-- PROJECT 01 -->
+      <article class="project reveal">
+        <div class="project-header">
+          <div class="project-header-left">
+            <div class="project-index">Work · 01 / 04</div>
+            <h3 class="project-title">실시간 매칭 웹앱</h3>
+            <div class="project-version">React 19 + Supabase · 오프라인 매칭 이벤트</div>
+          </div>
+          <div class="project-badges">
+            <span class="badge live">● Live Production</span>
+            <span class="badge">Freelance</span>
+          </div>
+        </div>
+
+        <p class="project-lede">
+          오프라인 매칭 이벤트를 <strong>100명+ 동시 접속</strong> 환경에서 실시간 운영하는 웹앱.
+          9개 테이블과 30여 개 PostgreSQL RPC 함수로 구성된 정규화 아키텍처를 직접 설계했고,
+          까다로운 실시간 로직(실시간 매칭·투표·피드백·어드민 운영 제어)을
+          혼자 구현하고 안정화했습니다.
+        </p>
+
+        <div class="project-metrics">
+          <div class="metric">
+            <span class="metric-val">30<span class="unit">+</span></span>
+            <span class="metric-label">RPC + RLS<br>Supabase 표준 패턴</span>
+          </div>
+          <div class="metric">
+            <span class="metric-val">100<span class="unit">+</span></span>
+            <span class="metric-label">Concurrent Users<br>at event peak</span>
+          </div>
+          <div class="metric">
+            <span class="metric-val">$25<span class="unit">/mo</span></span>
+            <span class="metric-label">Supabase Pro<br>base tier</span>
+          </div>
+        </div>
+
+        <div class="project-body">
+          <h4>Architecture & Challenges</h4>
+          <p>
+            행사 특성상 하나의 이벤트에서 <strong>50~100명이 동시에 같은 RPC를 호출</strong>하는
+            순간이 있습니다. 라운드 오픈·투표 마감·매칭 결과 공개 — 초 단위 타이밍에
+            서버가 견뎌야 하고, 네트워크가 깜빡여도 화면이 stale 상태로 멈추지 않아야 했습니다.
+            일부 시나리오에서 Supabase Realtime의 안정성이 행사 운영 요구치에 미치지 못해,
+            핵심 화면(매칭 결과 공개·라이브 운영 화면 등)은 <code>2초 폴링</code>을 1차 채널로 두고 Realtime을 보조로 두는 hybrid 구조로 전환했습니다.
+            재접속 시에는 SHA-256 해시 기반 <code>resume_token</code>으로 세션을 복구하고,
+            동시 RPC 호출에는 <code>ON CONFLICT</code> 멱등 처리와 advisory lock을 조합해 race condition을 방어합니다.
+          </p>
+
+          <div class="arch-diagram" aria-label="실시간 매칭 웹앱 아키텍처 다이어그램">
+            <svg viewBox="0 0 960 400" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="arch1-title arch1-desc">
+              <title id="arch1-title">실시간 매칭 웹앱 아키텍처</title>
+              <desc id="arch1-desc">React 19 클라이언트가 Supabase Realtime을 1차 채널로, 2초 폴링을 백업 채널로 사용하며, PostgreSQL RPC·RLS·resume_token 세션 복구를 통해 100명+ 동시 접속 환경에서 race condition을 방어하는 구조.</desc>
+              <defs>
+                <marker id="arrow-ink-1" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+                  <path d="M0,0 L10,5 L0,10 z" fill="#525252"/>
+                </marker>
+                <marker id="arrow-accent-1" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+                  <path d="M0,0 L10,5 L0,10 z" fill="#1d4ed8"/>
+                </marker>
+                <marker id="arrow-warn-1" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+                  <path d="M0,0 L10,5 L0,10 z" fill="#b45309"/>
+                </marker>
+              </defs>
+
+              <!-- Client cluster (left) -->
+              <g>
+                <rect x="30" y="60" width="240" height="280" rx="16" fill="#ffffff" stroke="#e8e8e7" stroke-width="1.5"/>
+                <text x="50" y="88" font-family="Archivo, system-ui" font-size="11" font-weight="600" letter-spacing="1.5" fill="#8a8a8a">CLIENT</text>
+
+                <rect x="54" y="110" width="192" height="52" rx="8" fill="#fafafa" stroke="#e8e8e7"/>
+                <text x="70" y="135" font-family="Pretendard, system-ui" font-size="14" font-weight="600" fill="#0a0a0a">React 19 + TypeScript</text>
+                <text x="70" y="152" font-family="Pretendard, system-ui" font-size="11" fill="#8a8a8a">100+ 동시 접속</text>
+
+                <rect x="54" y="180" width="192" height="44" rx="8" fill="#fafafa" stroke="#e8e8e7"/>
+                <text x="70" y="205" font-family="Pretendard, system-ui" font-size="13" font-weight="500" fill="#0a0a0a">Zustand 5 · Store</text>
+
+                <rect x="54" y="242" width="192" height="44" rx="8" fill="#fafafa" stroke="#e8e8e7"/>
+                <text x="70" y="267" font-family="Pretendard, system-ui" font-size="13" font-weight="500" fill="#0a0a0a">resume_token 세션</text>
+              </g>
+
+              <!-- Arrows from client to server -->
+              <!-- Primary: Realtime WebSocket -->
+              <path id="flow-realtime" d="M 270,150 Q 420,150 480,150" stroke="#1d4ed8" stroke-width="2" fill="none" marker-end="url(#arrow-accent-1)"/>
+              <text x="300" y="138" font-family="Archivo, system-ui" font-size="10" font-weight="600" letter-spacing="0.5" fill="#1d4ed8">WEBSOCKET REALTIME</text>
+
+              <!-- Backup: 2-second polling -->
+              <path id="flow-polling" d="M 270,205 Q 420,205 480,205" stroke="#b45309" stroke-width="2" stroke-dasharray="5 4" fill="none" marker-end="url(#arrow-warn-1)"/>
+              <text x="300" y="196" font-family="Archivo, system-ui" font-size="10" font-weight="600" letter-spacing="0.5" fill="#b45309">2S POLLING · FALLBACK</text>
+
+              <!-- Resume: RPC calls -->
+              <path id="flow-rpc" d="M 270,264 Q 420,264 480,264" stroke="#525252" stroke-width="2" fill="none" marker-end="url(#arrow-ink-1)"/>
+              <text x="300" y="255" font-family="Archivo, system-ui" font-size="10" font-weight="600" letter-spacing="0.5" fill="#525252">30+ RPC FUNCTIONS</text>
+
+              <!-- Live data flow dots (travelling particles along each path) -->
+              <g class="flow-dots" aria-hidden="true">
+                <!-- Realtime (파란, 가장 빠름) -->
+                <circle class="flow-dot" r="4" fill="#1d4ed8" color="#1d4ed8">
+                  <animate attributeName="opacity" values="0;1;1;0" dur="1.8s" repeatCount="indefinite"/>
+                  <animateMotion dur="1.8s" repeatCount="indefinite" rotate="auto">
+                    <mpath href="#flow-realtime"/>
+                  </animateMotion>
+                </circle>
+                <circle class="flow-dot" r="4" fill="#1d4ed8" color="#1d4ed8">
+                  <animate attributeName="opacity" values="0;1;1;0" dur="1.8s" begin="0.9s" repeatCount="indefinite"/>
+                  <animateMotion dur="1.8s" begin="0.9s" repeatCount="indefinite" rotate="auto">
+                    <mpath href="#flow-realtime"/>
+                  </animateMotion>
+                </circle>
+
+                <!-- Polling (주황, 중간 속도) -->
+                <circle class="flow-dot" r="3.5" fill="#b45309" color="#b45309">
+                  <animate attributeName="opacity" values="0;0.85;0.85;0" dur="2.4s" repeatCount="indefinite"/>
+                  <animateMotion dur="2.4s" repeatCount="indefinite">
+                    <mpath href="#flow-polling"/>
+                  </animateMotion>
+                </circle>
+
+                <!-- RPC (회색, 가장 느림) -->
+                <circle class="flow-dot" r="3.5" fill="#525252" color="#525252">
+                  <animate attributeName="opacity" values="0;0.8;0.8;0" dur="3s" repeatCount="indefinite"/>
+                  <animateMotion dur="3s" repeatCount="indefinite">
+                    <mpath href="#flow-rpc"/>
+                  </animateMotion>
+                </circle>
+              </g>
+
+              <!-- Server cluster (right) -->
+              <g>
+                <rect x="480" y="60" width="450" height="280" rx="16" fill="#0a0a0a"/>
+                <rect x="480" y="60" width="3" height="280" rx="1" fill="#1d4ed8"/>
+                <text x="504" y="88" font-family="Archivo, system-ui" font-size="11" font-weight="600" letter-spacing="1.5" fill="rgba(250,250,250,0.55)">SUPABASE · $25/mo Pro</text>
+
+                <!-- Realtime row -->
+                <rect x="504" y="110" width="402" height="52" rx="8" fill="rgba(29,78,216,0.18)" stroke="rgba(29,78,216,0.4)"/>
+                <text x="524" y="135" font-family="Pretendard, system-ui" font-size="14" font-weight="600" fill="#fafafa">Realtime · WebSocket Broadcast</text>
+                <text x="524" y="152" font-family="Pretendard, system-ui" font-size="11" fill="rgba(250,250,250,0.6)">세션·활동·투표 동기화</text>
+
+                <!-- Polling row -->
+                <rect x="504" y="180" width="402" height="44" rx="8" fill="rgba(180,83,9,0.15)" stroke="rgba(180,83,9,0.35)" stroke-dasharray="4 3"/>
+                <text x="524" y="207" font-family="Pretendard, system-ui" font-size="13" font-weight="500" fill="#fafafa">Edge Functions · Polling Endpoint</text>
+
+                <!-- DB row -->
+                <rect x="504" y="242" width="402" height="78" rx="8" fill="rgba(250,250,250,0.08)" stroke="rgba(250,250,250,0.18)"/>
+                <text x="524" y="267" font-family="Pretendard, system-ui" font-size="14" font-weight="600" fill="#fafafa">PostgreSQL · 9 Tables · 30+ RPCs</text>
+                <text x="524" y="286" font-family="Pretendard, system-ui" font-size="11" fill="rgba(250,250,250,0.6)">RLS · bcrypt 어드민 · 레이트 리밋</text>
+                <text x="524" y="306" font-family="Pretendard, system-ui" font-size="11" fill="rgba(250,250,250,0.6)">RPC 레벨 동시성 제어 (advisory lock)</text>
+              </g>
+
+              <!-- Bottom legend -->
+              <g transform="translate(30, 365)">
+                <line x1="0" y1="0" x2="18" y2="0" stroke="#1d4ed8" stroke-width="2"/>
+                <text x="24" y="4" font-family="Pretendard, system-ui" font-size="11" fill="#525252">Primary</text>
+                <line x1="90" y1="0" x2="108" y2="0" stroke="#b45309" stroke-width="2" stroke-dasharray="4 3"/>
+                <text x="114" y="4" font-family="Pretendard, system-ui" font-size="11" fill="#525252">Fallback (장애 복구)</text>
+                <line x1="240" y1="0" x2="258" y2="0" stroke="#525252" stroke-width="2"/>
+                <text x="264" y="4" font-family="Pretendard, system-ui" font-size="11" fill="#525252">RPC / 세션 복구</text>
+              </g>
+            </svg>
+          </div>
+
+          <h4>Operations-First Engineering</h4>
+          <ul>
+            <li><strong>관리자 기능별 ON/OFF 제어</strong> — 행사 도중 특정 기능만 즉시 끌 수 있어야 함. 어드민 패널 RPC 레벨 토글.</li>
+            <li><strong>bcrypt 기반 어드민 인증 + 레이트 리밋</strong> — 10분 내 10회 실패 시 자동 락, 공격 로그 1시간 자동 정리.</li>
+            <li><strong>D+1 운영 반영 사이클</strong> — 행사 현장 피드백을 다음 행사 전까지 닫는 운영 모델. 빠른 릴리즈 그 자체가 아니라, 피드백 → 분석 → 반영 → 검증 루프의 길이를 짧게 유지하는 데 초점.</li>
+          </ul>
+
+          <!-- Real code snippet — RPC 함수 시그니처 -->
+          <div class="code-block" aria-label="실제 구현 스니펫: register_participant RPC 함수">
+            <div class="code-header">
+              <div class="code-header-left">
+                <div class="code-header-dots">
+                  <span class="code-header-dot"></span>
+                  <span class="code-header-dot"></span>
+                  <span class="code-header-dot"></span>
+                </div>
+                <span class="code-header-file">supabase/functions/register_participant.sql</span>
+              </div>
+              <span class="code-header-lang">PL/pgSQL</span>
+            </div>
+<pre class="code-body"><span class="tk-c">-- 참가자 등록 · 재접속 시 idempotent 동작</span>
+<span class="tk-c">-- resume_token 평문은 저장하지 않고 SHA-256 해시만 보관</span>
+<span class="tk-k">create or replace function</span> <span class="tk-n">public.register_participant</span>(
+  <span class="tk-a">p_room_code</span>     <span class="tk-t">text</span>,
+  <span class="tk-a">p_user_id</span>       <span class="tk-t">uuid</span>,
+  <span class="tk-a">p_display_name</span>  <span class="tk-t">text</span>,
+  <span class="tk-a">p_resume_token</span>  <span class="tk-t">text</span>
+) <span class="tk-k">returns</span> <span class="tk-t">jsonb</span>
+<span class="tk-k">language</span> plpgsql <span class="tk-k">security definer</span> <span class="tk-k">as</span> <span class="tk-s">$$</span>
+<span class="tk-k">declare</span>
+  v_participant_id <span class="tk-t">uuid</span>;
+  v_token_hash     <span class="tk-t">text</span>;
+<span class="tk-k">begin</span>
+  v_token_hash := <span class="tk-n">encode</span>(<span class="tk-n">digest</span>(p_resume_token, <span class="tk-s">'sha256'</span>), <span class="tk-s">'hex'</span>);
+
+  <span class="tk-k">insert into</span> participants (room_code, user_id, display_name, resume_token_hash)
+  <span class="tk-k">values</span> (p_room_code, p_user_id, p_display_name, v_token_hash)
+  <span class="tk-k">on conflict</span> (room_code, user_id) <span class="tk-k">do update</span>
+    <span class="tk-k">set</span> display_name      = <span class="tk-n">excluded</span>.display_name,
+        resume_token_hash = <span class="tk-n">excluded</span>.resume_token_hash
+  <span class="tk-k">returning</span> id <span class="tk-k">into</span> v_participant_id;
+
+  <span class="tk-k">return</span> <span class="tk-n">jsonb_build_object</span>(
+    <span class="tk-s">'participant_id'</span>, v_participant_id,
+    <span class="tk-s">'status'</span>,         <span class="tk-s">'ok'</span>
+  );
+<span class="tk-k">end</span>; <span class="tk-s">$$</span>;</pre>
+          </div>
+        </div>
+
+        <div class="stack">
+          <div class="stack-label">Tech Stack</div>
+          <div class="stack-chips">
+            <span class="chip">React 19</span>
+            <span class="chip">TypeScript 5.8</span>
+            <span class="chip">Supabase</span>
+            <span class="chip">PostgreSQL + RLS</span>
+            <span class="chip">Realtime</span>
+            <span class="chip">Zustand 5</span>
+            <span class="chip">React Router 7</span>
+            <span class="chip">Vite 6</span>
+            <span class="chip">Sentry</span>
+            <span class="chip">Vitest</span>
+            <span class="chip">Vercel</span>
+          </div>
+        </div>
+      </article>
+
+      <!-- PROJECT 02 -->
+      <article class="project reveal">
+        <div class="project-header">
+          <div class="project-header-left">
+            <div class="project-index">Work · 02 / 04</div>
+            <h3 class="project-title">멀티 AI 영상 제작 데스크톱 앱</h3>
+            <div class="project-version">Electron 40 + Remotion · 멀티 LLM 파이프라인</div>
+          </div>
+          <div class="project-badges">
+            <span class="badge accent">Shipped</span>
+            <span class="badge">에듀테크 스타트업 재직 시절 · 사내 단독 개발</span>
+          </div>
+        </div>
+
+        <p class="project-lede">
+          Gemini(영상 분석) + Claude·GPT(스크립트·키워드) + Perplexity(팩트 체크) + Google TTS·ElevenLabs(음성 합성) + Pexels·Storyblocks(영상 푸티지)를
+          하나의 파이프라인으로 엮은 크로스 플랫폼(Win + macOS) 데스크톱 앱. 의도적으로 <strong>human touch</strong>를
+          넣은 Human-in-the-loop 설계로 플랫폼 제재 리스크를 관리한 점이 이 프로덕트에서 가장 신중하게 내린 설계 결정이었습니다.
+        </p>
+
+        <div class="project-metrics">
+          <div class="metric">
+            <span class="metric-val">5<span class="unit">min</span></span>
+            <span class="metric-label">편당 제작 시간<br>Production Time</span>
+          </div>
+          <div class="metric">
+            <span class="metric-val">4</span>
+            <span class="metric-label">LLM Providers<br>orchestrated pipeline</span>
+          </div>
+          <div class="metric">
+            <span class="metric-val">Win+Mac</span>
+            <span class="metric-label">Cross-platform<br>w/ auto-update</span>
+          </div>
+        </div>
+
+        <div class="project-body">
+
+          <h4>Multi-LLM Orchestration</h4>
+          <p>
+            각 모델의 강점에 맞춰 역할을 분배하는 게 파이프라인의 핵심입니다.
+            Gemini는 긴 영상 입력과 멀티모달 분석에, Claude는 한국어 문장의 자연스러움에,
+            GPT는 구조화된 키워드 추출에, Perplexity는 최신 팩트 체크에 각각 특화됩니다.
+            하나의 모델로 모든 것을 하려면 품질이 중간에 머물지만, <strong>모델을 조합하면
+            각 단계에서 최고 성능을 낼 수 있습니다</strong>.
+          </p>
+
+          <div class="arch-diagram" aria-label="멀티 AI 영상 제작 앱 파이프라인 다이어그램">
+            <svg viewBox="0 0 960 440" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="arch2-title arch2-desc">
+              <title id="arch2-title">멀티 AI 영상 제작 파이프라인</title>
+              <desc id="arch2-desc">원본 영상을 Gemini로 분석하고 Claude·GPT로 스크립트·키워드를 생성, Perplexity로 팩트 체크, Google TTS·ElevenLabs로 음성 합성, 중간 편집 단계에 Human-in-the-loop 게이트를 두어 플랫폼 제재 리스크를 관리하는 편당 5분 소요 파이프라인.</desc>
+              <defs>
+                <marker id="arrow-flow-2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto">
+                  <path d="M0,0 L10,5 L0,10 z" fill="#525252"/>
+                </marker>
+                <marker id="arrow-human-2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto">
+                  <path d="M0,0 L10,5 L0,10 z" fill="#1d4ed8"/>
+                </marker>
+              </defs>
+
+              <!-- INPUT -->
+              <g>
+                <rect x="30" y="30" width="150" height="58" rx="10" fill="#ffffff" stroke="#e8e8e7" stroke-width="1.5"/>
+                <text x="48" y="53" font-family="Archivo, system-ui" font-size="10" font-weight="600" letter-spacing="1.2" fill="#8a8a8a">INPUT</text>
+                <text x="48" y="74" font-family="Pretendard, system-ui" font-size="14" font-weight="600" fill="#0a0a0a">원본 영상·주제</text>
+              </g>
+
+              <!-- Pipeline arrow (animated — flow indicator) -->
+              <line class="arch-line-flow" x1="180" y1="59" x2="210" y2="59" stroke="#525252" stroke-width="2" marker-end="url(#arrow-flow-2)"/>
+
+              <!-- STAGE 1 — Gemini -->
+              <g>
+                <rect x="215" y="30" width="180" height="120" rx="12" fill="#fafafa" stroke="#e8e8e7" stroke-width="1.5"/>
+                <text x="233" y="53" font-family="Archivo, system-ui" font-size="10" font-weight="600" letter-spacing="1.2" fill="#8a8a8a">STAGE 1 · ANALYZE</text>
+                <circle cx="247" cy="80" r="5" fill="#5c8bd9"/>
+                <text x="261" y="84" font-family="Pretendard, system-ui" font-size="14" font-weight="700" fill="#0a0a0a">Gemini</text>
+                <text x="233" y="108" font-family="Pretendard, system-ui" font-size="11" fill="#525252">영상 장면 분석</text>
+                <text x="233" y="126" font-family="Pretendard, system-ui" font-size="11" fill="#525252">긴 입력 · 멀티모달</text>
+              </g>
+
+              <line x1="395" y1="89" x2="425" y2="89" stroke="#525252" stroke-width="2" marker-end="url(#arrow-flow-2)"/>
+
+              <!-- STAGE 2 — Claude + GPT -->
+              <g>
+                <rect x="430" y="30" width="200" height="120" rx="12" fill="#fafafa" stroke="#e8e8e7" stroke-width="1.5"/>
+                <text x="448" y="53" font-family="Archivo, system-ui" font-size="10" font-weight="600" letter-spacing="1.2" fill="#8a8a8a">STAGE 2 · SCRIPT</text>
+                <circle cx="462" cy="80" r="5" fill="#c5806a"/>
+                <text x="476" y="84" font-family="Pretendard, system-ui" font-size="13" font-weight="700" fill="#0a0a0a">Claude</text>
+                <text x="540" y="84" font-family="Pretendard, system-ui" font-size="11" fill="#525252">한국어 스크립트</text>
+                <circle cx="462" cy="110" r="5" fill="#268c73"/>
+                <text x="476" y="114" font-family="Pretendard, system-ui" font-size="13" font-weight="700" fill="#0a0a0a">GPT</text>
+                <text x="540" y="114" font-family="Pretendard, system-ui" font-size="11" fill="#525252">키워드·구조화</text>
+              </g>
+
+              <line x1="630" y1="89" x2="660" y2="89" stroke="#525252" stroke-width="2" marker-end="url(#arrow-flow-2)"/>
+
+              <!-- STAGE 3 — Perplexity -->
+              <g>
+                <rect x="665" y="30" width="180" height="120" rx="12" fill="#fafafa" stroke="#e8e8e7" stroke-width="1.5"/>
+                <text x="683" y="53" font-family="Archivo, system-ui" font-size="10" font-weight="600" letter-spacing="1.2" fill="#8a8a8a">STAGE 3 · VERIFY</text>
+                <circle cx="697" cy="80" r="5" fill="#20808d"/>
+                <text x="711" y="84" font-family="Pretendard, system-ui" font-size="14" font-weight="700" fill="#0a0a0a">Perplexity</text>
+                <text x="683" y="108" font-family="Pretendard, system-ui" font-size="11" fill="#525252">팩트 체크</text>
+                <text x="683" y="126" font-family="Pretendard, system-ui" font-size="11" fill="#525252">최신 정보 검증</text>
+              </g>
+
+              <!-- HUMAN-IN-THE-LOOP block -->
+              <g>
+                <rect x="215" y="190" width="630" height="86" rx="12" fill="#0a0a0a"/>
+                <rect x="215" y="190" width="3" height="86" rx="1" fill="#1d4ed8"/>
+                <text x="237" y="215" font-family="Archivo, system-ui" font-size="10" font-weight="600" letter-spacing="1.5" fill="#60a5fa">HUMAN-IN-THE-LOOP · EDITORIAL GATE</text>
+                <text x="237" y="242" font-family="Pretendard, system-ui" font-size="15" font-weight="600" fill="#fafafa">사용자 편집 개입 지점 · 플랫폼 제재 리스크 관리</text>
+                <text x="237" y="262" font-family="Pretendard, system-ui" font-size="11" fill="rgba(250,250,250,0.6)">스크립트 수정 · 팩트 보정 · 최종 승인 — “리스크를 나눠 가진다”</text>
+              </g>
+
+              <!-- Arrows from stages into HITL block -->
+              <path d="M 305,150 L 305,190" stroke="#1d4ed8" stroke-width="1.8" stroke-dasharray="3 3" fill="none"/>
+              <path d="M 530,150 L 530,190" stroke="#1d4ed8" stroke-width="1.8" stroke-dasharray="3 3" fill="none"/>
+              <path d="M 755,150 L 755,190" stroke="#1d4ed8" stroke-width="1.8" stroke-dasharray="3 3" fill="none"/>
+
+              <!-- STAGE 4 — TTS + Remotion -->
+              <g>
+                <rect x="280" y="310" width="220" height="82" rx="12" fill="#fafafa" stroke="#e8e8e7" stroke-width="1.5"/>
+                <text x="298" y="334" font-family="Archivo, system-ui" font-size="10" font-weight="600" letter-spacing="1.2" fill="#8a8a8a">STAGE 4 · VOICE</text>
+                <text x="298" y="358" font-family="Pretendard, system-ui" font-size="13" font-weight="600" fill="#0a0a0a">Google TTS</text>
+                <text x="298" y="378" font-family="Pretendard, system-ui" font-size="13" font-weight="600" fill="#0a0a0a">ElevenLabs</text>
+              </g>
+
+              <line x1="500" y1="351" x2="525" y2="351" stroke="#525252" stroke-width="2" marker-end="url(#arrow-flow-2)"/>
+
+              <g>
+                <rect x="530" y="310" width="220" height="82" rx="12" fill="#fafafa" stroke="#e8e8e7" stroke-width="1.5"/>
+                <text x="548" y="334" font-family="Archivo, system-ui" font-size="10" font-weight="600" letter-spacing="1.2" fill="#8a8a8a">STAGE 5 · RENDER</text>
+                <text x="548" y="358" font-family="Pretendard, system-ui" font-size="13" font-weight="600" fill="#0a0a0a">Remotion · Electron</text>
+                <text x="548" y="378" font-family="Pretendard, system-ui" font-size="11" fill="#525252">크로스플랫폼 출력</text>
+              </g>
+
+              <!-- Arrow from HITL down to TTS -->
+              <path d="M 390,276 L 390,310" stroke="#525252" stroke-width="2" fill="none" marker-end="url(#arrow-flow-2)"/>
+
+              <!-- OUTPUT badge (right bottom) -->
+              <g>
+                <rect x="780" y="318" width="140" height="66" rx="10" fill="#ffffff" stroke="#1d4ed8" stroke-width="1.5"/>
+                <text x="798" y="340" font-family="Archivo, system-ui" font-size="10" font-weight="600" letter-spacing="1.2" fill="#1d4ed8">OUTPUT</text>
+                <text x="798" y="362" font-family="Pretendard, system-ui" font-size="14" font-weight="700" fill="#0a0a0a">완성 영상</text>
+                <text x="798" y="378" font-family="Pretendard, system-ui" font-size="11" fill="#525252">편당 5분 소요</text>
+              </g>
+              <line x1="750" y1="351" x2="780" y2="351" stroke="#525252" stroke-width="2" marker-end="url(#arrow-flow-2)"/>
+
+              <!-- Legend -->
+              <g transform="translate(30, 420)">
+                <line x1="0" y1="0" x2="18" y2="0" stroke="#525252" stroke-width="2"/>
+                <text x="24" y="4" font-family="Pretendard, system-ui" font-size="11" fill="#525252">파이프라인 흐름</text>
+                <line x1="120" y1="0" x2="138" y2="0" stroke="#1d4ed8" stroke-width="1.8" stroke-dasharray="3 3"/>
+                <text x="144" y="4" font-family="Pretendard, system-ui" font-size="11" fill="#525252">Human-in-the-loop 연결</text>
+              </g>
+            </svg>
+          </div>
+
+          <!-- Real code snippet — multi-LLM stage router -->
+          <div class="code-block" aria-label="실제 구현 스니펫: 단계별 LLM 라우터">
+            <div class="code-header">
+              <div class="code-header-left">
+                <div class="code-header-dots">
+                  <span class="code-header-dot"></span>
+                  <span class="code-header-dot"></span>
+                  <span class="code-header-dot"></span>
+                </div>
+                <span class="code-header-file">src/pipeline/multi-llm-router.ts</span>
+              </div>
+              <span class="code-header-lang">TypeScript</span>
+            </div>
+<pre class="code-body"><span class="tk-c">// 단계별로 강점이 다른 LLM에 라우팅 — hallucination 최소화</span>
+<span class="tk-k">type</span> <span class="tk-t">Stage</span> = <span class="tk-s">'analyze'</span> | <span class="tk-s">'draft'</span> | <span class="tk-s">'structure'</span> | <span class="tk-s">'verify'</span>;
+
+<span class="tk-k">const</span> ROUTE: <span class="tk-t">Record</span>&lt;<span class="tk-t">Stage</span>, <span class="tk-t">LLMProvider</span>&gt; = {
+  analyze:   <span class="tk-s">'gemini'</span>,      <span class="tk-c">// 긴 영상 입력 · 멀티모달 분석</span>
+  draft:     <span class="tk-s">'claude'</span>,      <span class="tk-c">// 한국어 문장 톤</span>
+  structure: <span class="tk-s">'gpt'</span>,         <span class="tk-c">// JSON 스키마 안정성</span>
+  verify:    <span class="tk-s">'perplexity'</span>,  <span class="tk-c">// 최신 팩트 체크</span>
+};
+
+<span class="tk-k">export async function</span> <span class="tk-n">runStage</span>&lt;<span class="tk-t">T</span>&gt;(
+  <span class="tk-a">stage</span>:  <span class="tk-t">Stage</span>,
+  <span class="tk-a">input</span>:  <span class="tk-t">StageInput</span>
+): <span class="tk-t">Promise</span>&lt;<span class="tk-t">T</span>&gt; {
+  <span class="tk-k">const</span> llm    = clients[ROUTE[stage]];
+  <span class="tk-k">const</span> result = <span class="tk-k">await</span> llm.<span class="tk-n">invoke</span>(input, {
+    <span class="tk-a">timeout</span>: STAGE_TIMEOUT[stage],
+    <span class="tk-a">retries</span>: <span class="tk-n">2</span>,
+  });
+  <span class="tk-k">return</span> <span class="tk-n">validate</span>(stage, result);
+}</pre>
+          </div>
+        </div>
+
+        <div class="stack">
+          <div class="stack-label">Tech Stack</div>
+          <div class="stack-chips">
+            <span class="chip">Electron 40</span>
+            <span class="chip">Vite</span>
+            <span class="chip">React</span>
+            <span class="chip">Node.js</span>
+            <span class="chip">Remotion</span>
+            <span class="chip">Gemini API</span>
+            <span class="chip">Claude API</span>
+            <span class="chip">OpenAI API</span>
+            <span class="chip">Perplexity API</span>
+            <span class="chip">Google TTS</span>
+            <span class="chip">ElevenLabs</span>
+            <span class="chip">Pexels API</span>
+            <span class="chip">Storyblocks API</span>
+            <span class="chip">electron-builder</span>
+            <span class="chip">electron-updater</span>
+          </div>
+        </div>
+      </article>
+
+      <!-- PROJECT 03 -->
+      <article class="project reveal">
+        <div class="project-header">
+          <div class="project-header-left">
+            <div class="project-index">Work · 03 / 04</div>
+            <h3 class="project-title">SNS 트렌드 데이터 수집·분석 데스크톱 앱</h3>
+            <div class="project-version">Electron 40 + Supabase Edge Functions · BFF 프록시 아키텍처</div>
+          </div>
+          <div class="project-badges">
+            <span class="badge accent">Shipped</span>
+            <span class="badge">에듀테크 스타트업 재직 시절 · 사내 단독 개발</span>
+          </div>
+        </div>
+
+        <p class="project-lede">
+          Instagram·TikTok·샤오홍슈 등 다국가 SNS의 트렌드 콘텐츠를 <strong>실시간 수집·분석하는 데스크톱 도구</strong>.
+          Apify·LLM·YouTube API 호출을 Supabase Edge Functions 프록시 뒤로 격리해,
+          <strong>클라이언트 번들에 API 키가 노출되지 않는 BFF 아키텍처</strong>를 1인 개발 환경에서 구현했습니다.
+        </p>
+
+        <div class="project-metrics">
+          <div class="metric">
+            <span class="metric-val">3</span>
+            <span class="metric-label">Social Platforms<br>IG · TikTok · 샤오홍슈</span>
+          </div>
+          <div class="metric">
+            <span class="metric-val">11</span>
+            <span class="metric-label">IPC Modules<br>main process 분리</span>
+          </div>
+          <div class="metric">
+            <span class="metric-val">Edge<span class="unit"> Fn</span></span>
+            <span class="metric-label">API-key Proxy<br>Supabase BFF</span>
+          </div>
+        </div>
+
+        <div class="project-body">
+
+          <h4>Why a Supabase Edge Functions Proxy?</h4>
+          <p>
+            데스크톱 앱은 코드가 클라이언트에 통째로 배포되기 때문에, API 키를 앱 내부에 심으면
+            <strong>리버스 엔지니어링으로 탈취 가능</strong>합니다. Edge Functions를 프록시로 두면
+            사용자는 인증 토큰만 받고, 실제 Apify·LLM·YouTube API 호출은 서버에서 대신 수행합니다.
+            전형적인 <strong>BFF(Backend for Frontend) 패턴</strong>을 데스크톱 앱에 적용한 구조입니다.
+          </p>
+
+          <h4>Why Apify?</h4>
+          <p>
+            Instagram·TikTok은 공식 API가 극히 제한적이거나 상업용 크롤링을 금지합니다.
+            Apify는 관리형 크롤링 서비스로 구현·운영 복잡도를 낮추고,
+            <code>apify~instagram-post-scraper</code>와 <code>clockworks~free-tiktok-scraper</code>
+            같은 actor들을 바로 조합할 수 있습니다.
+            free-tier actor의 가용성 리스크는 paid actor로의 fallback 경로를 미리 설정해 흡수합니다.
+          </p>
+
+          <div class="arch-diagram" aria-label="Edge Functions BFF 프록시 패턴 비교 다이어그램">
+            <svg viewBox="0 0 960 420" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="arch3-title arch3-desc">
+              <title id="arch3-title">BFF 프록시 패턴 — Naive vs Adopted 비교</title>
+              <desc id="arch3-desc">Naive 방식은 클라이언트 번들에 API 키가 노출되어 asar 언패킹으로 유출 가능. 채택한 BFF 패턴은 Supabase Edge Functions를 프록시로 두고 사용자 JWT만 클라이언트에 두어 레이트 리밋·쿼터·로그를 서버 측에서 제어하는 구조.</desc>
+              <defs>
+                <marker id="arrow-ink-3" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+                  <path d="M0,0 L10,5 L0,10 z" fill="#525252"/>
+                </marker>
+                <marker id="arrow-accent-3" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+                  <path d="M0,0 L10,5 L0,10 z" fill="#1d4ed8"/>
+                </marker>
+                <marker id="arrow-danger-3" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+                  <path d="M0,0 L10,5 L0,10 z" fill="#dc2626"/>
+                </marker>
+              </defs>
+
+              <!-- Section labels -->
+              <g>
+                <circle cx="38" cy="24" r="7" fill="#dc2626"/>
+                <path d="M 34.5,20.5 L 41.5,27.5 M 41.5,20.5 L 34.5,27.5" stroke="#ffffff" stroke-width="1.6" stroke-linecap="round"/>
+              </g>
+              <text x="52" y="28" font-family="Archivo, system-ui" font-size="11" font-weight="600" letter-spacing="1.5" fill="#dc2626">NAIVE APPROACH</text>
+              <g>
+                <circle cx="38" cy="216" r="7" fill="#1d4ed8"/>
+                <path d="M 34.5,216 L 37,218.8 L 42,212.5" stroke="#ffffff" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+              </g>
+              <text x="52" y="220" font-family="Archivo, system-ui" font-size="11" font-weight="600" letter-spacing="1.5" fill="#1d4ed8">BFF PROXY (채택)</text>
+
+              <!-- ====== NAIVE APPROACH (top row) ====== -->
+              <!-- Desktop App with embedded keys -->
+              <g>
+                <rect x="30" y="45" width="260" height="100" rx="12" fill="#fee2e2" stroke="#f87171" stroke-width="1.8"/>
+                <text x="48" y="68" font-family="Archivo, system-ui" font-size="10" font-weight="600" letter-spacing="1.2" fill="#b91c1c">DESKTOP APP (Electron)</text>
+                <text x="48" y="92" font-family="Pretendard, system-ui" font-size="13" font-weight="600" fill="#0a0a0a">클라이언트 번들</text>
+                <rect x="48" y="104" width="160" height="28" rx="6" fill="#ffffff" stroke="#ef4444" stroke-dasharray="3 2" stroke-width="1.3"/>
+                <text x="58" y="122" font-family="JetBrains Mono, monospace" font-size="11" font-weight="600" fill="#b91c1c">APIFY_KEY = “secret”</text>
+              </g>
+
+              <!-- danger arrow -->
+              <line x1="290" y1="95" x2="340" y2="95" stroke="#dc2626" stroke-width="2" marker-end="url(#arrow-danger-3)"/>
+              <text x="295" y="83" font-family="Pretendard, system-ui" font-size="10" fill="#dc2626">직접 호출</text>
+
+              <!-- External APIs -->
+              <g>
+                <rect x="350" y="45" width="220" height="100" rx="12" fill="#ffffff" stroke="#e8e8e7" stroke-width="1.5"/>
+                <text x="368" y="68" font-family="Archivo, system-ui" font-size="10" font-weight="600" letter-spacing="1.2" fill="#8a8a8a">3RD PARTY APIs</text>
+                <text x="368" y="92" font-family="Pretendard, system-ui" font-size="12" fill="#525252">Apify · OpenAI · Gemini</text>
+                <text x="368" y="112" font-family="Pretendard, system-ui" font-size="12" fill="#525252">Claude · YouTube Data</text>
+              </g>
+
+              <!-- Risk callout -->
+              <g>
+                <rect x="600" y="45" width="330" height="100" rx="12" fill="#7f1d1d" stroke="#991b1b"/>
+                <g>
+                  <path d="M 623,63 L 631,77 L 615,77 Z" fill="none" stroke="rgba(255,255,255,0.85)" stroke-width="1.4" stroke-linejoin="round"/>
+                  <text x="623" y="73" text-anchor="middle" dominant-baseline="central" font-family="Archivo, system-ui" font-size="10" font-weight="800" fill="rgba(255,255,255,0.9)">!</text>
+                </g>
+                <text x="640" y="73" font-family="Archivo, system-ui" font-size="10" font-weight="600" letter-spacing="1.2" fill="rgba(255,255,255,0.7)">RISK</text>
+                <text x="618" y="97" font-family="Pretendard, system-ui" font-size="13" font-weight="600" fill="#ffffff">리버스 엔지니어링으로 키 탈취 가능</text>
+                <text x="618" y="117" font-family="Pretendard, system-ui" font-size="11" fill="rgba(255,255,255,0.78)">데스크톱 앱은 클라이언트에 통째 배포됨</text>
+                <text x="618" y="133" font-family="Pretendard, system-ui" font-size="11" fill="rgba(255,255,255,0.78)">asar 언패킹·메모리 덤프로 문자열 추출 가능</text>
+              </g>
+
+              <!-- Divider line -->
+              <line x1="30" y1="175" x2="930" y2="175" stroke="#e8e8e7" stroke-width="1" stroke-dasharray="6 4"/>
+
+              <!-- ====== BFF PROXY (bottom row) ====== -->
+              <!-- Desktop App (no keys) -->
+              <g>
+                <rect x="30" y="240" width="210" height="140" rx="12" fill="#ffffff" stroke="#d4d4d3" stroke-width="1.5"/>
+                <text x="48" y="263" font-family="Archivo, system-ui" font-size="10" font-weight="600" letter-spacing="1.2" fill="#525252">DESKTOP APP (Electron)</text>
+                <text x="48" y="287" font-family="Pretendard, system-ui" font-size="13" font-weight="600" fill="#0a0a0a">클라이언트 번들</text>
+                <rect x="48" y="300" width="162" height="28" rx="6" fill="#ecfdf5" stroke="#10b981" stroke-width="1.3"/>
+                <text x="58" y="318" font-family="JetBrains Mono, monospace" font-size="11" font-weight="600" fill="#047857">JWT · user token only</text>
+                <text x="48" y="348" font-family="Pretendard, system-ui" font-size="11" fill="#525252">11 IPC 모듈 · main process</text>
+                <text x="48" y="366" font-family="Pretendard, system-ui" font-size="11" fill="#525252">electron-updater 자동 업데이트</text>
+              </g>
+
+              <!-- accent arrow (animated — BFF flow indicator) -->
+              <line class="arch-line-flow" x1="240" y1="290" x2="290" y2="290" stroke="#1d4ed8" stroke-width="2" marker-end="url(#arrow-accent-3)"/>
+              <text x="245" y="278" font-family="Pretendard, system-ui" font-size="10" fill="#1d4ed8">토큰만 전송</text>
+
+              <!-- Edge Functions proxy -->
+              <g>
+                <rect x="300" y="240" width="300" height="140" rx="12" fill="#0a0a0a"/>
+                <rect x="300" y="240" width="3" height="140" rx="1" fill="#1d4ed8"/>
+                <text x="322" y="263" font-family="Archivo, system-ui" font-size="10" font-weight="600" letter-spacing="1.5" fill="#60a5fa">SUPABASE · EDGE FUNCTIONS</text>
+                <text x="322" y="290" font-family="Pretendard, system-ui" font-size="14" font-weight="700" fill="#fafafa">BFF 프록시 레이어</text>
+                <rect x="322" y="304" width="258" height="32" rx="6" fill="rgba(29,78,216,0.18)" stroke="rgba(29,78,216,0.35)"/>
+                <text x="334" y="325" font-family="JetBrains Mono, monospace" font-size="11" fill="#fafafa">process.env.APIFY_KEY · server-side</text>
+                <text x="322" y="354" font-family="Pretendard, system-ui" font-size="11" fill="rgba(250,250,250,0.7)">인증 · 레이트 리밋 · 로그 · 쿼터 제어</text>
+                <text x="322" y="371" font-family="Pretendard, system-ui" font-size="11" fill="rgba(250,250,250,0.7)">Deno runtime · 글로벌 엣지 배포</text>
+              </g>
+
+              <!-- ink arrow -->
+              <line x1="600" y1="290" x2="640" y2="290" stroke="#525252" stroke-width="2" marker-end="url(#arrow-ink-3)"/>
+
+              <!-- External APIs (same box, but now safe) -->
+              <g>
+                <rect x="650" y="240" width="280" height="140" rx="12" fill="#ffffff" stroke="#e8e8e7" stroke-width="1.5"/>
+                <text x="668" y="263" font-family="Archivo, system-ui" font-size="10" font-weight="600" letter-spacing="1.2" fill="#8a8a8a">3RD PARTY APIs</text>
+                <text x="668" y="289" font-family="Pretendard, system-ui" font-size="12" fill="#525252">Apify · Instagram · TikTok</text>
+                <text x="668" y="308" font-family="Pretendard, system-ui" font-size="12" fill="#525252">Claude · Gemini · OpenAI</text>
+                <text x="668" y="327" font-family="Pretendard, system-ui" font-size="12" fill="#525252">ElevenLabs · Whisper</text>
+                <text x="668" y="346" font-family="Pretendard, system-ui" font-size="12" fill="#525252">YouTube Data API</text>
+                <g>
+                  <circle cx="674" cy="366" r="6" fill="#047857"/>
+                  <path d="M 671,366 L 673.5,368.5 L 677.5,362.5" stroke="#ffffff" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+                </g>
+                <text x="686" y="370" font-family="Pretendard, system-ui" font-size="11" font-weight="600" fill="#047857">키 노출 없음</text>
+              </g>
+            </svg>
+          </div>
+
+          <!-- Real code snippet — Edge Function BFF proxy -->
+          <div class="code-block" aria-label="실제 구현 스니펫: Edge Functions BFF 프록시">
+            <div class="code-header">
+              <div class="code-header-left">
+                <div class="code-header-dots">
+                  <span class="code-header-dot"></span>
+                  <span class="code-header-dot"></span>
+                  <span class="code-header-dot"></span>
+                </div>
+                <span class="code-header-file">supabase/functions/apify-proxy/index.ts</span>
+              </div>
+              <span class="code-header-lang">TypeScript · Deno</span>
+            </div>
+<pre class="code-body"><span class="tk-c">// 클라이언트 JWT만 검증 · API 키는 서버 env에만 존재</span>
+<span class="tk-k">const</span> APIFY_TOKEN = Deno.env.<span class="tk-n">get</span>(<span class="tk-s">'APIFY_TOKEN'</span>)!;
+
+Deno.<span class="tk-n">serve</span>(<span class="tk-k">async</span> (<span class="tk-a">req</span>) =&gt; {
+  <span class="tk-c">// 1. 유저 JWT 검증</span>
+  <span class="tk-k">const</span> jwt = req.headers.<span class="tk-n">get</span>(<span class="tk-s">'Authorization'</span>);
+  <span class="tk-k">const</span> { <span class="tk-a">data</span>: { <span class="tk-a">user</span> } } = <span class="tk-k">await</span> supabase.auth.<span class="tk-n">getUser</span>(jwt);
+  <span class="tk-k">if</span> (!user) <span class="tk-k">return new</span> <span class="tk-t">Response</span>(<span class="tk-s">'Unauthorized'</span>, { <span class="tk-a">status</span>: <span class="tk-n">401</span> });
+
+  <span class="tk-c">// 2. 레이트 리밋 · 쿼터 제어</span>
+  <span class="tk-k">if</span> (<span class="tk-k">await</span> <span class="tk-n">isRateLimited</span>(user.id)) {
+    <span class="tk-k">return new</span> <span class="tk-t">Response</span>(<span class="tk-s">'Too Many Requests'</span>, { <span class="tk-a">status</span>: <span class="tk-n">429</span> });
+  }
+
+  <span class="tk-c">// 3. 프록시 호출 — 키는 서버에서만 주입</span>
+  <span class="tk-k">const</span> { <span class="tk-a">endpoint</span>, <span class="tk-a">payload</span> } = <span class="tk-k">await</span> req.<span class="tk-n">json</span>();
+  <span class="tk-k">const</span> res = <span class="tk-k">await</span> <span class="tk-n">fetch</span>(<span class="tk-s">`https://api.apify.com/v2/${endpoint}`</span>, {
+    <span class="tk-a">method</span>:  <span class="tk-s">'POST'</span>,
+    <span class="tk-a">headers</span>: {
+      <span class="tk-s">'Authorization'</span>: <span class="tk-s">`Bearer ${APIFY_TOKEN}`</span>,
+      <span class="tk-s">'Content-Type'</span>:  <span class="tk-s">'application/json'</span>,
+    },
+    <span class="tk-a">body</span>:    <span class="tk-t">JSON</span>.<span class="tk-n">stringify</span>(payload),
+  });
+  <span class="tk-k">return new</span> <span class="tk-t">Response</span>(<span class="tk-k">await</span> res.<span class="tk-n">text</span>(), { <span class="tk-a">status</span>: res.status });
+});</pre>
+          </div>
+        </div>
+
+        <div class="stack">
+          <div class="stack-label">Tech Stack</div>
+          <div class="stack-chips">
+            <span class="chip">Electron 40</span>
+            <span class="chip">Vite 8</span>
+            <span class="chip">Supabase Edge Functions</span>
+            <span class="chip">Apify API</span>
+            <span class="chip">Claude API</span>
+            <span class="chip">Gemini API</span>
+            <span class="chip">OpenAI API</span>
+            <span class="chip">ElevenLabs</span>
+            <span class="chip">Whisper</span>
+            <span class="chip">YouTube Data API</span>
+            <span class="chip">electron-updater</span>
+            <span class="chip">NSIS + DMG</span>
+          </div>
+        </div>
+      </article>
+
+      <!-- ════════════════════════════════════════════════════════════
+           WORK · 04 / 04 — Teaching Materials (시니어 엔지니어의 전달 근육 증명)
+           ════════════════════════════════════════════════════════════ -->
+      <article class="project reveal">
+        <div class="project-header">
+          <div class="project-header-left">
+            <div class="project-index">Work · 04 / 04</div>
+            <h3 class="project-title">AX·AI 활용 강의 콘텐츠 2편</h3>
+            <div class="project-version">90분 강의안 · 메인 13장 + 심화 20장 · 단독 설계·디자인</div>
+          </div>
+          <div class="project-badges">
+            <span class="badge accent">Sample</span>
+            <span class="badge">콘텐츠 제작 · 2026</span>
+          </div>
+        </div>
+
+        <p class="project-lede">
+          시니어 엔지니어가 하는 일의 절반은 <strong>본인이 만든 시스템을 다른 사람의 언어로 옮기는 것</strong>입니다.
+          신규 입사자 온보딩, 비기술 임원 보고, 외부 협력사 설명, 채용 인터뷰의 시스템 디자인 — 모두 같은 근육.
+          <strong>Work 01~03의 직접 구축·운영 경험</strong>을 비개발 실무자·팀 리더 대상 강의 콘텐츠 2편으로 옮긴 작업이며,
+          슬라이드 디자인·정보 구조·전달 톤까지 외부 디자이너 없이 단독 빌드했습니다.
+        </p>
+
+        <div class="project-metrics">
+          <div class="metric">
+            <span class="metric-val">2</span>
+            <span class="metric-label">Curricula<br>메인 + 심화</span>
+          </div>
+          <div class="metric">
+            <span class="metric-val">33</span>
+            <span class="metric-label">Slides Total<br>13 + 20</span>
+          </div>
+          <div class="metric">
+            <span class="metric-val">90<span class="unit">×2</span></span>
+            <span class="metric-label">Minutes Each<br>강의 + 워크숍</span>
+          </div>
+        </div>
+
+        <div class="project-body">
+
+          <h4>Why this work belongs in an engineering portfolio</h4>
+          <p>
+            엔지니어로 일할수록 <strong>코드보다 설명이 더 어려워지는 순간</strong>이 늘어납니다.
+            아키텍처 판단을 비기술 의사결정자에게 풀어내는 일, 신규 입사자가 30분 안에 시스템 멘탈 모델을 만들 수 있게 하는 일,
+            인터뷰에서 시스템 디자인을 그리며 설명하는 일 — 모두 같은 근육을 씁니다.
+            이 두 강의안은 그 근육이 <strong>실제 결과물 단위로 출력 가능하다</strong>는 증거이며,
+            Work 03의 BFF 프록시 같은 아키텍처 판단을 비개발자가 이해 가능한 수준으로 풀어내는 작업의 연장선입니다.
+          </p>
+
+          <!-- Sample 01 · Main -->
+          <h4>Sample 01 · 생성형 AI를 내 업무에 넣는 법 — 4가지 질문</h4>
+          <p>
+            도구를 고르기 전에 업무를 네 가지 질문(반복 식별 / 목적 재정의 / Human-in-the-loop / 시작점 선택)으로 쪼개는 사고 틀.
+            <strong>90분 13장 슬라이드</strong>, 비개발 실무자·팀 리더·공공기관 담당자 공통.
+            한 슬라이드 한 메시지 원칙으로 인지 부하를 최소화한 구조.
+          </p>
+
+          <div class="lecture-thumbs">
+            <a href="lecture-main.pdf" target="_blank" rel="noopener" class="lecture-thumb">
+              <img src="main-slide-cover.jpg" alt="메인 강의안 표지 슬라이드" loading="lazy">
+              <span class="lecture-thumb-cap">01 · Cover</span>
+            </a>
+            <a href="lecture-main.pdf" target="_blank" rel="noopener" class="lecture-thumb">
+              <img src="main-slide-framework.jpg" alt="업무를 쪼개는 4가지 질문 프레임워크 슬라이드" loading="lazy">
+              <span class="lecture-thumb-cap">06 · Framework</span>
+            </a>
+            <a href="lecture-main.pdf" target="_blank" rel="noopener" class="lecture-thumb">
+              <img src="main-slide-applied.jpg" alt="실제 적용 사례 슬라이드" loading="lazy">
+              <span class="lecture-thumb-cap">11 · Applied</span>
+            </a>
+          </div>
+
+          <div class="lecture-ctas">
+            <a href="lecture-main.pptx" class="lecture-btn primary" download>
+              <span class="lecture-btn-icon">↓</span>
+              <span class="lecture-btn-text">PPT · 13 슬라이드</span>
+            </a>
+            <a href="lecture-main.pdf" class="lecture-btn" target="_blank" rel="noopener">
+              <span class="lecture-btn-icon">↗</span>
+              <span class="lecture-btn-text">PDF 미리보기</span>
+            </a>
+          </div>
+
+          <!-- Sample 02 · Deep -->
+          <h4>Sample 02 · LLM 기반 영상·콘텐츠 자동화 파이프라인 설계</h4>
+          <p>
+            <strong>Work 02의 영상 자동화 앱 운영 경험을 그대로 교안화</strong>한 심화 트랙.
+            멀티 LLM 오케스트레이션, 단계별 실패 모드, Human-in-the-loop 배치 기준,
+            절감 시간·API 비용·운영 오버헤드·사고 기댓값까지 포함한 도입 ROI 1차 추정 워크드.
+            <strong>90분 20장</strong>.
+          </p>
+
+          <div class="lecture-thumbs">
+            <a href="lecture-deep.pdf" target="_blank" rel="noopener" class="lecture-thumb">
+              <img src="simhwa-slide-cover.jpg" alt="심화 강의안 표지 슬라이드" loading="lazy">
+              <span class="lecture-thumb-cap">01 · Cover</span>
+            </a>
+            <a href="lecture-deep.pdf" target="_blank" rel="noopener" class="lecture-thumb">
+              <img src="simhwa-slide-pipeline.jpg" alt="6단계 파이프라인 다이어그램 슬라이드" loading="lazy">
+              <span class="lecture-thumb-cap">07 · Pipeline</span>
+            </a>
+            <a href="lecture-deep.pdf" target="_blank" rel="noopener" class="lecture-thumb">
+              <img src="simhwa-slide-roi.jpg" alt="도입 ROI 1차 추정 슬라이드" loading="lazy">
+              <span class="lecture-thumb-cap">15 · ROI</span>
+            </a>
+          </div>
+
+          <div class="lecture-ctas">
+            <a href="lecture-deep.pptx" class="lecture-btn primary" download>
+              <span class="lecture-btn-icon">↓</span>
+              <span class="lecture-btn-text">PPT · 20 슬라이드</span>
+            </a>
+            <a href="lecture-deep.pdf" class="lecture-btn" target="_blank" rel="noopener">
+              <span class="lecture-btn-icon">↗</span>
+              <span class="lecture-btn-text">PDF 미리보기</span>
+            </a>
+          </div>
+
+        </div>
+
+        <div class="stack">
+          <div class="stack-label">Output Format</div>
+          <div class="stack-chips">
+            <span class="chip">PowerPoint</span>
+            <span class="chip">PDF</span>
+            <span class="chip">90 min · per session</span>
+            <span class="chip">Pretendard Typography</span>
+            <span class="chip">단독 설계·디자인</span>
+          </div>
+        </div>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+<!-- 03 CRAFT -->
+<section class="page craft" id="craft">
+  <div class="container">
+
+    <div class="craft-intro">
+      <div class="eyebrow reveal"><span class="eyebrow-num">04</span> Craft</div>
+      <h2 class="section-title reveal d1">
+        모델·언어·사람을<br>
+        <span class="highlight">이어내는 법</span>
+      </h2>
+      <p class="section-lede reveal d2">
+        LLM 기반 실행력과 비개발자 커뮤니케이션은 분리된 두 역량이 아닙니다.
+        모델의 출력을 사람의 맥락에 맞춰 번역하고, 사람의 요구를 모델이 다룰 수 있는 형태로
+        재구조화하는 — 하나의 동일한 근력입니다.
+      </p>
+    </div>
+
+    <div class="arch-diagram arch-diagram--craft reveal" aria-label="작업 단계별 LLM 역할 분담 매트릭스">
+      <svg viewBox="0 0 960 420" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="arch4-title arch4-desc">
+        <title id="arch4-title">LLM 역할 분담 매트릭스</title>
+        <desc id="arch4-desc">Claude는 코드 아키텍처·장기 컨텍스트, Gemini는 멀티모달·대용량 입력, ChatGPT는 구조화 출력·키워드 추출, Codex는 코드 리뷰·교차 검증을 담당하며, 마지막 행은 모든 모델이 상호 검증자로 작동하는 역할 분담 구조.</desc>
+        <defs>
+          <marker id="arrow-craft" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto">
+            <path d="M0,0 L10,5 L0,10 z" fill="rgba(250,250,250,0.4)"/>
+          </marker>
+        </defs>
+
+        <!-- Title row -->
+        <text x="30" y="32" font-family="Archivo, system-ui" font-size="11" font-weight="600" letter-spacing="1.5" fill="rgba(250,250,250,0.55)">ROLE ASSIGNMENT · 작업 단계별 모델 분업</text>
+
+        <!-- Column headers: Claude / Gemini / GPT / Codex -->
+        <g>
+          <rect x="280" y="60" width="155" height="44" rx="8" fill="rgba(197,128,106,0.15)" stroke="rgba(197,128,106,0.35)"/>
+          <circle cx="298" cy="82" r="5" fill="#c5806a"/>
+          <text x="308" y="87" font-family="Pretendard, system-ui" font-size="12" font-weight="700" fill="#fafafa">Claude Opus 4.7</text>
+        </g>
+        <g>
+          <rect x="445" y="60" width="155" height="44" rx="8" fill="rgba(92,139,217,0.18)" stroke="rgba(92,139,217,0.4)"/>
+          <circle cx="463" cy="82" r="5" fill="#5c8bd9"/>
+          <text x="473" y="87" font-family="Pretendard, system-ui" font-size="12" font-weight="700" fill="#fafafa">Gemini 3.1 Pro</text>
+        </g>
+        <g>
+          <rect x="610" y="60" width="155" height="44" rx="8" fill="rgba(38,140,115,0.18)" stroke="rgba(38,140,115,0.4)"/>
+          <circle cx="628" cy="82" r="5" fill="#268c73"/>
+          <text x="638" y="87" font-family="Pretendard, system-ui" font-size="12" font-weight="700" fill="#fafafa">ChatGPT 5.4</text>
+        </g>
+        <g>
+          <rect x="775" y="60" width="155" height="44" rx="8" fill="rgba(209,149,46,0.15)" stroke="rgba(209,149,46,0.35)"/>
+          <circle cx="793" cy="82" r="5" fill="#d1952e"/>
+          <text x="803" y="87" font-family="Pretendard, system-ui" font-size="12" font-weight="700" fill="#fafafa">Codex</text>
+        </g>
+
+        <!-- Row 1: 코드 아키텍처·리팩토링 (Claude PRIMARY) -->
+        <g>
+          <text x="30" y="146" font-family="Pretendard, system-ui" font-size="13" font-weight="600" fill="#fafafa">코드 아키텍처 · 리팩토링</text>
+          <text x="30" y="163" font-family="Pretendard, system-ui" font-size="11" fill="rgba(250,250,250,0.55)">장기 컨텍스트 · 설계 판단</text>
+          <rect x="280" y="130" width="155" height="44" rx="8" fill="rgba(197,128,106,0.22)" stroke="rgba(197,128,106,0.5)"/>
+          <text x="357.5" y="157" font-family="Archivo, system-ui" font-size="11" font-weight="700" letter-spacing="1" fill="#fafafa" text-anchor="middle">PRIMARY</text>
+          <text x="522.5" y="157" font-family="Pretendard, system-ui" font-size="11" fill="rgba(250,250,250,0.3)" text-anchor="middle">—</text>
+          <text x="687.5" y="157" font-family="Pretendard, system-ui" font-size="11" fill="rgba(250,250,250,0.3)" text-anchor="middle">—</text>
+          <text x="852.5" y="157" font-family="Pretendard, system-ui" font-size="11" fill="rgba(250,250,250,0.3)" text-anchor="middle">—</text>
+        </g>
+
+        <!-- Row 2: 멀티모달·영상 분석 (Gemini PRIMARY) -->
+        <g>
+          <text x="30" y="204" font-family="Pretendard, system-ui" font-size="13" font-weight="600" fill="#fafafa">영상·이미지·긴 입력 분석</text>
+          <text x="30" y="221" font-family="Pretendard, system-ui" font-size="11" fill="rgba(250,250,250,0.55)">멀티모달 · 대용량 컨텍스트</text>
+          <text x="357.5" y="215" font-family="Pretendard, system-ui" font-size="11" fill="rgba(250,250,250,0.3)" text-anchor="middle">—</text>
+          <rect x="445" y="188" width="155" height="44" rx="8" fill="rgba(92,139,217,0.25)" stroke="rgba(92,139,217,0.55)"/>
+          <text x="522.5" y="215" font-family="Archivo, system-ui" font-size="11" font-weight="700" letter-spacing="1" fill="#fafafa" text-anchor="middle">PRIMARY</text>
+          <text x="687.5" y="215" font-family="Pretendard, system-ui" font-size="11" fill="rgba(250,250,250,0.3)" text-anchor="middle">—</text>
+          <text x="852.5" y="215" font-family="Pretendard, system-ui" font-size="11" fill="rgba(250,250,250,0.3)" text-anchor="middle">—</text>
+        </g>
+
+        <!-- Row 3: 구조화 JSON·키워드 (ChatGPT PRIMARY) -->
+        <g>
+          <text x="30" y="262" font-family="Pretendard, system-ui" font-size="13" font-weight="600" fill="#fafafa">구조화 출력 · 키워드 추출</text>
+          <text x="30" y="279" font-family="Pretendard, system-ui" font-size="11" fill="rgba(250,250,250,0.55)">JSON 스키마 · 안정적 포맷</text>
+          <text x="357.5" y="273" font-family="Pretendard, system-ui" font-size="11" fill="rgba(250,250,250,0.3)" text-anchor="middle">—</text>
+          <text x="522.5" y="273" font-family="Pretendard, system-ui" font-size="11" fill="rgba(250,250,250,0.3)" text-anchor="middle">—</text>
+          <rect x="610" y="246" width="155" height="44" rx="8" fill="rgba(38,140,115,0.25)" stroke="rgba(38,140,115,0.55)"/>
+          <text x="687.5" y="273" font-family="Archivo, system-ui" font-size="11" font-weight="700" letter-spacing="1" fill="#fafafa" text-anchor="middle">PRIMARY</text>
+          <text x="852.5" y="273" font-family="Pretendard, system-ui" font-size="11" fill="rgba(250,250,250,0.3)" text-anchor="middle">—</text>
+        </g>
+
+        <!-- Row 4: 코드 리뷰·교차 검증 (Codex PRIMARY) -->
+        <g>
+          <text x="30" y="320" font-family="Pretendard, system-ui" font-size="13" font-weight="600" fill="#fafafa">코드 리뷰 · 교차 검증</text>
+          <text x="30" y="337" font-family="Pretendard, system-ui" font-size="11" fill="rgba(250,250,250,0.55)">구현 검증 · 리팩토링 제안</text>
+          <text x="357.5" y="331" font-family="Pretendard, system-ui" font-size="11" fill="rgba(250,250,250,0.3)" text-anchor="middle">—</text>
+          <text x="522.5" y="331" font-family="Pretendard, system-ui" font-size="11" fill="rgba(250,250,250,0.3)" text-anchor="middle">—</text>
+          <text x="687.5" y="331" font-family="Pretendard, system-ui" font-size="11" fill="rgba(250,250,250,0.3)" text-anchor="middle">—</text>
+          <rect x="775" y="304" width="155" height="44" rx="8" fill="rgba(209,149,46,0.22)" stroke="rgba(209,149,46,0.5)"/>
+          <text x="852.5" y="331" font-family="Archivo, system-ui" font-size="11" font-weight="700" letter-spacing="1" fill="#fafafa" text-anchor="middle">PRIMARY</text>
+        </g>
+
+        <!-- Row 5: 크로스 검증 (cross-validation) -->
+        <g>
+          <text x="30" y="378" font-family="Pretendard, system-ui" font-size="13" font-weight="600" fill="#fafafa">크로스 검증 · 품질 확인</text>
+          <text x="30" y="395" font-family="Pretendard, system-ui" font-size="11" fill="rgba(250,250,250,0.55)">한 모델 출력을 다른 모델로 재검토</text>
+          <rect x="280" y="362" width="155" height="44" rx="8" fill="rgba(250,250,250,0.07)" stroke="rgba(250,250,250,0.18)"/>
+          <text x="357.5" y="389" font-family="Archivo, system-ui" font-size="10" font-weight="600" letter-spacing="1" fill="rgba(250,250,250,0.75)" text-anchor="middle">VALIDATOR</text>
+          <rect x="445" y="362" width="155" height="44" rx="8" fill="rgba(250,250,250,0.07)" stroke="rgba(250,250,250,0.18)"/>
+          <text x="522.5" y="389" font-family="Archivo, system-ui" font-size="10" font-weight="600" letter-spacing="1" fill="rgba(250,250,250,0.75)" text-anchor="middle">VALIDATOR</text>
+          <rect x="610" y="362" width="155" height="44" rx="8" fill="rgba(250,250,250,0.07)" stroke="rgba(250,250,250,0.18)"/>
+          <text x="687.5" y="389" font-family="Archivo, system-ui" font-size="10" font-weight="600" letter-spacing="1" fill="rgba(250,250,250,0.75)" text-anchor="middle">VALIDATOR</text>
+          <rect x="775" y="362" width="155" height="44" rx="8" fill="rgba(250,250,250,0.07)" stroke="rgba(250,250,250,0.18)"/>
+          <text x="852.5" y="389" font-family="Archivo, system-ui" font-size="10" font-weight="600" letter-spacing="1" fill="rgba(250,250,250,0.75)" text-anchor="middle">VALIDATOR</text>
+        </g>
+      </svg>
+    </div>
+
+    <div class="principles">
+      <div class="principle reveal">
+        <div class="principle-num">01 · Reliability</div>
+        <h4>운영되는 서비스까지</h4>
+        <p>세 프로덕트를 기획·구현·배포까지 단독으로 완결했고, 그중 하나는 실서비스로 직접 운영하며 로그·에러·사용자 피드백을 하루 단위로 반영하고 있습니다. 실행 속도와 안정성을 함께 챙깁니다.</p>
+      </div>
+      <div class="principle reveal d1">
+        <div class="principle-num">02 · Global</div>
+        <h4>영어 기반 실무 감각</h4>
+        <p>TOEIC <strong>970</strong>점(2025.06)의 비즈니스 영어 레벨을 유지하며, 해외 기술 문서와 글로벌 AI 동향을 원문으로 추적합니다. 한화오션에서 독일 제조사와 영어로 핫라인을 운영하며 <strong>생산설계 이슈를 실시간 조율한 경험</strong>이 있습니다.</p>
+      </div>
+    </div>
+
+    <div class="comm-header">
+      <h3 class="reveal">정량적 커뮤니케이션 자산</h3>
+      <p class="reveal d1">
+        “잘한다”가 아니라 측정 가능한 자산입니다. 영어 시험 점수, 대면 컨설팅 건수,
+        학업 성취 — 수 년에 걸쳐 쌓인 정량적 근거가 있습니다.
+      </p>
+    </div>
+
+    <div class="comm-stats reveal d2">
+      <div class="comm-stat">
+        <span class="comm-stat-k">TOEIC</span>
+        <span class="comm-stat-v">970<span class="sub">2025.06</span></span>
+      </div>
+      <div class="comm-stat">
+        <span class="comm-stat-k">English Level</span>
+        <span class="comm-stat-v">Business</span>
+      </div>
+      <div class="comm-stat">
+        <span class="comm-stat-k">대면 컨설팅</span>
+        <span class="comm-stat-v">4년 · 수백명/시즌</span>
+      </div>
+      <div class="comm-stat">
+        <span class="comm-stat-k">한서대 학점</span>
+        <span class="comm-stat-v">4.36 / 석차 1위</span>
+      </div>
+      <div class="comm-stat">
+        <span class="comm-stat-k">교내 성적장학금</span>
+        <span class="comm-stat-v">4회<span class="sub">수석 3 · 차석 1</span></span>
+      </div>
+      <div class="comm-stat">
+        <span class="comm-stat-k">한국장학재단 이공계장학금</span>
+        <span class="comm-stat-v">3·4학년 전액 수혜</span>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- 03.5 STACK — Tools of Trade -->
+<section class="page stack-section" id="stack">
+  <div class="container">
+
+    <div class="stack-intro">
+      <div class="eyebrow reveal"><span class="eyebrow-num">05</span> Tools of Trade</div>
+      <h2 class="section-title reveal d1">
+        세 프로덕트를 만들면서 <span class="highlight">실제로 손에 익힌 도구들</span>
+      </h2>
+      <p class="section-lede reveal d2">
+        AI 프로덕트 세 개를 0에서 1까지 직접 만드는 과정에서 쓴 스택 그대로입니다.
+        튜토리얼 수준이 아니라 <strong>실제 배포·운영 환경</strong>에서 부딪히며 익혔습니다.
+      </p>
+    </div>
+
+    <div class="stack-grid">
+      <div class="stack-cat reveal">
+        <div class="stack-cat-label">Frontend</div>
+        <ul class="stack-cat-list">
+          <li>React 19</li>
+          <li>TypeScript 5.8</li>
+          <li>Vite 6 / 8</li>
+          <li>Zustand 5</li>
+          <li>React Router 7</li>
+          <li>Remotion <span class="hint">· 영상 렌더링</span></li>
+          <li>Tailwind CSS</li>
+        </ul>
+      </div>
+
+      <div class="stack-cat reveal d1">
+        <div class="stack-cat-label">Backend · Infra</div>
+        <ul class="stack-cat-list">
+          <li>Supabase <span class="hint">· Postgres + RLS</span></li>
+          <li>Edge Functions <span class="hint">· Deno</span></li>
+          <li>Electron 40 <span class="hint">· 2 apps</span></li>
+          <li>Node.js</li>
+          <li>Vercel</li>
+          <li>GitHub Pages</li>
+          <li>electron-updater</li>
+        </ul>
+      </div>
+
+      <div class="stack-cat reveal d2">
+        <div class="stack-cat-label">AI · LLM</div>
+        <ul class="stack-cat-list">
+          <li>Claude Opus 4.7</li>
+          <li>Gemini 3.1 Pro</li>
+          <li>ChatGPT 5.4</li>
+          <li>Codex <span class="hint">· 코드 리뷰</span></li>
+          <li>Perplexity <span class="hint">· 팩트 체크</span></li>
+          <li>Google TTS · ElevenLabs · Whisper</li>
+        </ul>
+      </div>
+
+      <div class="stack-cat reveal d3">
+        <div class="stack-cat-label">Automation · Ops</div>
+        <ul class="stack-cat-list">
+          <li>Zapier</li>
+          <li>Apify API <span class="hint">· 크롤링</span></li>
+          <li>Vitest</li>
+          <li>git · GitHub Actions</li>
+          <li>DMG <span class="hint">· macOS 배포</span></li>
+          <li>electron-builder</li>
+        </ul>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- 04 NEXT (generic) -->
+<section class="next" id="next">
+  <div class="container">
+    <div class="eyebrow reveal"><span class="eyebrow-num">06</span> What Next</div>
+    <h2 class="next-title reveal d1">
+      다음은,<br>
+      <span class="hl">함께 만드는 자리</span>입니다.
+    </h2>
+
+    <div class="next-body">
+      <div class="next-col-left reveal d2">
+        <p>
+          방산 엔지니어링의 <strong>구조적 사고</strong>, 4년간의 B2C 컨설팅에서 길러진 <strong>고객 감각</strong>,
+          그리고 <strong>AI Native 개발 실행력</strong> — 이 세 가지를 한 사람이 연결해 끝까지 책임지는 자리를 찾고 있습니다.
+        </p>
+        <p>
+          기획·설계·개발·배포·운영까지 단독 수행한 경험, 그리고 <strong>내 앞의 사람이 이해할 수 있는 언어로 다시 짜는 감각</strong>을
+          동시에 가진 조합이 지금 가장 희소합니다. 한화오션 국방과학연구소 보고 자료, 대치동 수백 명의 학부모 대면 컨설팅,
+          학원 집합 강의 — 포맷은 달라도 일의 본질은 하나였습니다.
+        </p>
+
+        <div class="next-fit">
+          <div class="next-fit-label">특히 잘 맞는 환경</div>
+          <ul class="next-fit-list">
+            <li><strong>AI를 조직에 실무형으로 도입·교육해야 하는 팀</strong> — 실제 프로덕트를 만들어본 감각으로 현업형 교육 설계</li>
+            <li><strong>고객 현장과 제품 사이를 직접 오가는 역할</strong> — 대면 컨설팅 4년으로 쌓은 고객 맥락 번역 능력</li>
+            <li><strong>콘텐츠·운영 자동화 환경을 직접 구축해야 하는 조직</strong> — 멀티 LLM 파이프라인과 노코드 워크플로우를 실제로 엮어 반복 업무 시간을 단축한 경험</li>
+            <li><strong>빠르게 프로토타입을 만들어야 하는 팀</strong> — 0→1을 단독 수행한 경험</li>
+            <li><strong>비개발자와 기술팀 사이 번역이 중요한 팀</strong> — 방산·보고·컨설팅에서 쌓인 전달 감각</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="next-quotes reveal d3">
+        <div class="next-quote">
+          <div class="next-quote-num">Principle I</div>
+          <p><strong>프로토타입이 아니라</strong> 실제로 운영되는 서비스를 만든다.</p>
+        </div>
+        <div class="next-quote">
+          <div class="next-quote-num">Principle II</div>
+          <p>완성은 <strong>배포가 아니라</strong> 쓰이기 시작하는 순간이다.</p>
+        </div>
+        <div class="next-quote">
+          <div class="next-quote-num">Principle III</div>
+          <p>제가 <strong>직접 써도 불편하지 않을 때까지</strong> 만든다.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section class="contact" id="contact">
+  <div class="container">
+    <div class="contact-hero">
+      <div class="eyebrow reveal">연락</div>
+      <h2 class="reveal d1">
+        기획 없이도 제품을<br>
+        <span class="hl">끝까지 만들어내는 사람</span>을<br>
+        찾고 있다면, 연락 주세요.
+      </h2>
+      <p class="reveal d2">
+        짧은 메시지도 환영합니다. 제품·AI·전달 — 이 세 가지가 교차하는 자리라면 더 좋습니다.
+      </p>
+    </div>
+
+    <div class="contact-primary reveal d2">
+      <a href="mailto:hoon7624g@gmail.com" class="contact-cta primary" id="email-cta" data-email="hoon7624g@gmail.com">
+        <div class="contact-cta-left">
+          <span class="contact-cta-label">Email · Primary</span>
+          <span class="contact-cta-value">hoon7624g@gmail.com</span>
+        </div>
+        <svg class="contact-cta-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17L17 7M7 7h10v10"/></svg>
+      </a>
+      <div class="copy-toast" id="copy-toast" role="status" aria-live="polite">✓ 이메일이 복사되었습니다</div>
+    </div>
+
+    <div class="contact-meta reveal d3">
+      <div class="contact-meta-item">
+        <span class="contact-meta-label">Phone</span>
+        <span class="contact-meta-value">+82 10 2765 7624</span>
+      </div>
+      <div class="contact-meta-item">
+        <span class="contact-meta-label">Based in</span>
+        <span class="contact-meta-value">Seoul, Korea · KST</span>
+      </div>
+      <div class="contact-meta-item">
+        <span class="contact-meta-label">Open to</span>
+        <span class="contact-meta-value">AI 엔지니어 · AI 빌더</span>
+      </div>
+    </div>
+
+    <footer class="footer">
+      <div class="footer-grid">
+        <div class="footer-col footer-brand-col">
+          <div class="footer-brand">윤상훈 · Sanghoon Yoon</div>
+          <p>기획자 없이 제품을 만들고, 현장의 언어로 전달합니다.</p>
+          <a href="mailto:hoon7624g@gmail.com" class="footer-email">hoon7624g@gmail.com</a>
+        </div>
+
+        <div class="footer-col">
+          <div class="footer-col-label">Navigate</div>
+          <ul class="footer-list">
+            <li><a href="#about">소개</a></li>
+            <li><a href="#decisions">판단</a></li>
+            <li><a href="#work">작업</a></li>
+            <li><a href="#craft">원칙</a></li>
+            <li><a href="#stack">스택</a></li>
+            <li><a href="#contact">연락</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <div class="footer-col-label">Meta</div>
+          <ul class="footer-list">
+            <li><span class="mono">Last updated · <time datetime="2026-04-22"><span class="v">2026.04.22</span></time></span></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <div class="footer-col-label">Elsewhere</div>
+          <ul class="footer-list">
+            <li>
+              <a href="mailto:hoon7624g@gmail.com">
+                Email
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17L17 7M7 7h10v10"/></svg>
+              </a>
+            </li>
+            <li>
+              <a href="tel:+821027657624">
+                +82 10 2765 7624
+              </a>
+            </li>
+            <li>
+              <a href="https://hoon7624g-web.github.io/portfolio/" target="_blank" rel="noopener">
+                Portfolio
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17L17 7M7 7h10v10"/></svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <span>© 2026 윤상훈 · All rights reserved · Seoul, Korea</span>
+        <span class="footer-version"><span class="dot" aria-hidden="true"></span>Portfolio v2.4.0 · live</span>
+      </div>
+    </footer>
+  </div>
+</section>
+
+</main>
+
+<script>
+// ═══════════════════════════════════════════════════
+// Hero WebGL · 3D particle network (tier 4-H)
+// Respects: prefers-reduced-motion, mobile, intersection visibility
+// ═══════════════════════════════════════════════════
+(function initHeroWebGL() {
+  const canvas = document.getElementById('hero-webgl');
+  if (!canvas) return;
+
+  // Skip if reduced-motion or mobile (CSS also hides, but belt-and-suspenders)
+  if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+  if (window.innerWidth < 720) return;
+
+  // Wait for Three.js to load (defer script)
+  function waitForThree(attemptsLeft) {
+    if (typeof THREE !== 'undefined') {
+      start();
+    } else if (attemptsLeft > 0) {
+      setTimeout(function() { waitForThree(attemptsLeft - 1); }, 80);
+    }
+    // silent fail if never loads — canvas stays opacity:0 via CSS
+  }
+  if (document.readyState === 'loading') {
+    window.addEventListener('DOMContentLoaded', function() { waitForThree(40); });
+  } else {
+    waitForThree(40);
+  }
+
+  function start() {
+    const container = canvas.parentElement;
+    if (!container) return;
+
+    // Read accent color from CSS (responsive to light/dark theme)
+    function readAccentColor() {
+      const cs = getComputedStyle(document.documentElement).getPropertyValue('--accent').trim();
+      // Convert '#1d4ed8' → 0x1d4ed8
+      return new THREE.Color(cs || '#1d4ed8');
+    }
+
+    const NODE_COUNT = window.innerWidth < 1100 ? 50 : 80;
+    const CONNECT_DIST = 70;
+
+    const scene = new THREE.Scene();
+    const rect = container.getBoundingClientRect();
+    const camera = new THREE.PerspectiveCamera(60, rect.width / Math.max(rect.height, 1), 1, 600);
+    camera.position.z = 180;
+
+    const renderer = new THREE.WebGLRenderer({
+      canvas: canvas,
+      alpha: true,
+      antialias: window.devicePixelRatio < 2,
+      powerPreference: 'low-power'
+    });
+    renderer.setClearColor(0x000000, 0);
+    renderer.setPixelRatio(Math.min(window.devicePixelRatio, 2));
+    renderer.setSize(rect.width, Math.max(rect.height, 1), false);
+
+    // Nodes (Points)
+    const nodePositions = new Float32Array(NODE_COUNT * 3);
+    const nodeDrift = new Float32Array(NODE_COUNT * 3); // per-node phase offsets
+
+    for (let i = 0; i < NODE_COUNT; i++) {
+      nodePositions[i*3]     = (Math.random() - 0.5) * 260;
+      nodePositions[i*3 + 1] = (Math.random() - 0.5) * 180;
+      nodePositions[i*3 + 2] = (Math.random() - 0.5) * 120;
+      nodeDrift[i*3]     = Math.random() * Math.PI * 2;
+      nodeDrift[i*3 + 1] = Math.random() * Math.PI * 2;
+      nodeDrift[i*3 + 2] = Math.random() * Math.PI * 2;
+    }
+    const nodeGeometry = new THREE.BufferGeometry();
+    nodeGeometry.setAttribute('position', new THREE.BufferAttribute(nodePositions, 3));
+    const nodeMaterial = new THREE.PointsMaterial({
+      color: readAccentColor(),
+      size: 2.4,
+      sizeAttenuation: true,
+      transparent: true,
+      opacity: 0.85,
+      depthWrite: false
+    });
+    const points = new THREE.Points(nodeGeometry, nodeMaterial);
+    scene.add(points);
+
+    // Lines (connections) — allocate max buffer upfront, update count each frame
+    const maxLineSegments = NODE_COUNT * 6; // upper bound
+    const linePositions = new Float32Array(maxLineSegments * 2 * 3);
+    const lineGeometry = new THREE.BufferGeometry();
+    lineGeometry.setAttribute('position', new THREE.BufferAttribute(linePositions, 3));
+    const lineMaterial = new THREE.LineBasicMaterial({
+      color: readAccentColor(),
+      transparent: true,
+      opacity: 0.18,
+      depthWrite: false
+    });
+    const lines = new THREE.LineSegments(lineGeometry, lineMaterial);
+    scene.add(lines);
+
+    // Mouse parallax (eased)
+    let mouseX = 0, mouseY = 0, targetX = 0, targetY = 0;
+    window.addEventListener('pointermove', function(e) {
+      const nx = (e.clientX / window.innerWidth) - 0.5;
+      const ny = (e.clientY / window.innerHeight) - 0.5;
+      targetX = nx * 30;
+      targetY = -ny * 20;
+    }, { passive: true });
+
+    // Resize handling
+    function onResize() {
+      const r = container.getBoundingClientRect();
+      if (r.width < 1 || r.height < 1) return;
+      camera.aspect = r.width / r.height;
+      camera.updateProjectionMatrix();
+      renderer.setSize(r.width, r.height, false);
+    }
+    window.addEventListener('resize', onResize, { passive: true });
+
+    // Intersection observer — pause animation when Hero offscreen
+    let visible = true;
+    const io = new IntersectionObserver(function(entries) {
+      entries.forEach(function(entry) { visible = entry.isIntersecting; });
+    }, { threshold: 0.01 });
+    io.observe(container);
+
+    // Animate
+    const clock = new THREE.Clock();
+    const posAttr = nodeGeometry.getAttribute('position');
+    const linePosAttr = lineGeometry.getAttribute('position');
+
+    function animate() {
+      requestAnimationFrame(animate);
+      if (!visible) return;
+
+      const t = clock.getElapsedTime();
+
+      // Drift each node in a slow sine pattern
+      for (let i = 0; i < NODE_COUNT; i++) {
+        const i3 = i * 3;
+        posAttr.array[i3]     += Math.sin(t * 0.3 + nodeDrift[i3])     * 0.05;
+        posAttr.array[i3 + 1] += Math.cos(t * 0.27 + nodeDrift[i3 + 1]) * 0.05;
+        posAttr.array[i3 + 2] += Math.sin(t * 0.23 + nodeDrift[i3 + 2]) * 0.04;
+      }
+      posAttr.needsUpdate = true;
+
+      // Rebuild line connections within threshold distance
+      let segCount = 0;
+      for (let i = 0; i < NODE_COUNT; i++) {
+        for (let j = i + 1; j < NODE_COUNT; j++) {
+          const dx = posAttr.array[i*3]   - posAttr.array[j*3];
+          const dy = posAttr.array[i*3+1] - posAttr.array[j*3+1];
+          const dz = posAttr.array[i*3+2] - posAttr.array[j*3+2];
+          const d2 = dx*dx + dy*dy + dz*dz;
+          if (d2 < CONNECT_DIST * CONNECT_DIST && segCount < maxLineSegments) {
+            const off = segCount * 6;
+            linePosAttr.array[off]     = posAttr.array[i*3];
+            linePosAttr.array[off + 1] = posAttr.array[i*3 + 1];
+            linePosAttr.array[off + 2] = posAttr.array[i*3 + 2];
+            linePosAttr.array[off + 3] = posAttr.array[j*3];
+            linePosAttr.array[off + 4] = posAttr.array[j*3 + 1];
+            linePosAttr.array[off + 5] = posAttr.array[j*3 + 2];
+            segCount++;
+          }
+        }
+      }
+      lineGeometry.setDrawRange(0, segCount * 2);
+      linePosAttr.needsUpdate = true;
+
+      // Camera parallax toward mouse target
+      mouseX += (targetX - mouseX) * 0.03;
+      mouseY += (targetY - mouseY) * 0.03;
+      camera.position.x = mouseX;
+      camera.position.y = mouseY;
+      camera.lookAt(0, 0, 0);
+
+      renderer.render(scene, camera);
+    }
+
+    // Fade in canvas once first frame is ready
+    requestAnimationFrame(function() {
+      canvas.classList.add('ready');
+      animate();
+    });
+  }
+})();
+
+// ═══════════════════════════════════════════════════
+// Header scroll state
+// ═══════════════════════════════════════════════════
+const header = document.querySelector('.header');
+
+function updateScrollUI() {
+  const scrollTop = window.scrollY;
+  if (header) {
+    if (scrollTop > 40) header.classList.add('scrolled');
+    else header.classList.remove('scrolled');
+  }
+}
+window.addEventListener('scroll', updateScrollUI, { passive: true });
+updateScrollUI();
+
+// ═══════════════════════════════════════════════════
+// Side-nav active section + on-dark detection
+// ═══════════════════════════════════════════════════
+const sideNav = document.querySelector('.side-nav');
+const sideDots = document.querySelectorAll('.side-nav-dot');
+const darkSections = new Set(['next']); // sections with dark bg
+
+if (sideNav && sideDots.length) {
+  const sectionMap = new Map();
+  sideDots.forEach((dot) => {
+    const target = dot.getAttribute('data-target');
+    let el = null;
+    if (target === 'top') el = document.querySelector('main#top') || document.querySelector('.hero');
+    else el = document.getElementById(target);
+    if (el) sectionMap.set(target, el);
+  });
+
+  const sectionObserver = new IntersectionObserver((entries) => {
+    // Pick the entry with largest intersectionRatio that is intersecting
+    let best = null;
+    entries.forEach((entry) => {
+      if (entry.isIntersecting) {
+        if (!best || entry.intersectionRatio > best.intersectionRatio) best = entry;
+      }
+    });
+    if (!best) return;
+
+    const activeTarget = Array.from(sectionMap.entries())
+      .find(([, el]) => el === best.target)?.[0];
+
+    if (activeTarget) {
+      sideDots.forEach((d) => d.classList.toggle('active', d.getAttribute('data-target') === activeTarget));
+      // Toggle on-dark style for side-nav
+      if (darkSections.has(activeTarget)) sideNav.classList.add('on-dark');
+      else sideNav.classList.remove('on-dark');
+    }
+  }, {
+    rootMargin: '-40% 0px -40% 0px',
+    threshold: [0, 0.25, 0.5, 0.75, 1]
+  });
+
+  sectionMap.forEach((el) => sectionObserver.observe(el));
+}
+
+// ═══════════════════════════════════════════════════
+// Reveal on intersect
+// ═══════════════════════════════════════════════════
+const io = new IntersectionObserver((entries) => {
+  entries.forEach((entry) => {
+    if (entry.isIntersecting) {
+      entry.target.classList.add('in');
+      io.unobserve(entry.target);
+    }
+  });
+}, { threshold: 0.12, rootMargin: '0px 0px -60px 0px' });
+
+document.querySelectorAll('.reveal').forEach((el) => io.observe(el));
+
+// ═══════════════════════════════════════════════════
+// Hero title word-stagger reveal (Tier 3)
+// ═══════════════════════════════════════════════════
+(function setupHeroWordStagger() {
+  const heroTitle = document.querySelector('.hero-title-split');
+  if (!heroTitle) return;
+
+  // Collect direct children of hero-title that are word or word-group spans
+  // and all word spans inside word-groups — flatten to single animation sequence
+  const units = [];
+  heroTitle.querySelectorAll('.word-group, .hero-title-split > .word').forEach((el) => {
+    if (el.classList.contains('word-group')) {
+      // Push group itself (so group reveals together)
+      units.push(el);
+    } else {
+      units.push(el);
+    }
+  });
+
+  // Assign stagger delays
+  const STAGGER_MS = 75;
+  const BASE_MS = 80;
+  units.forEach((unit, i) => {
+    unit.style.transitionDelay = (BASE_MS + i * STAGGER_MS) + 'ms';
+  });
+})();
+
+// ═══════════════════════════════════════════════════
+// Hero reveals immediately
+// ═══════════════════════════════════════════════════
+window.addEventListener('load', () => {
+  document.querySelectorAll('.hero .reveal').forEach((el) => el.classList.add('in'));
+});
+
+// ═══════════════════════════════════════════════════
+// Hero stat count-up animation
+// ═══════════════════════════════════════════════════
+const prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+function animateCountUp(el, target, suffix, duration) {
+  if (prefersReducedMotion) {
+    el.textContent = target + (suffix || '');
+    if (suffix) {
+      el.innerHTML = target + '<span class="unit">' + suffix + '</span>';
+    }
+    return;
+  }
+  const start = performance.now();
+  // Support decimal targets (e.g., 4.36 GPA)
+  const targetNum = typeof target === 'number' ? target : parseFloat(target);
+  const decimals = (targetNum.toString().split('.')[1] || '').length;
+  function tick(now) {
+    const elapsed = now - start;
+    const progress = Math.min(elapsed / duration, 1);
+    // ease-out quart (matches cubic-bezier(0.16, 1, 0.3, 1))
+    const eased = 1 - Math.pow(1 - progress, 4);
+    const raw = eased * targetNum;
+    const current = decimals > 0 ? raw.toFixed(decimals) : Math.floor(raw);
+    if (suffix) {
+      el.innerHTML = current + '<span class="unit">' + suffix + '</span>';
+    } else {
+      el.textContent = current;
+    }
+    if (progress < 1) requestAnimationFrame(tick);
+  }
+  requestAnimationFrame(tick);
+}
+
+const countEls = document.querySelectorAll('.hero-stat-val[data-count]');
+if (countEls.length) {
+  const countObserver = new IntersectionObserver((entries) => {
+    entries.forEach((entry) => {
+      if (entry.isIntersecting) {
+        const el = entry.target;
+        const target = parseFloat(el.getAttribute('data-count'));
+        const suffix = el.getAttribute('data-suffix') || '';
+        animateCountUp(el, target, suffix, 1700);
+        countObserver.unobserve(el);
+      }
+    });
+  }, { threshold: 0.4 });
+  countEls.forEach((el) => countObserver.observe(el));
+}
+
+// ═══════════════════════════════════════════════════
+// Tier 4-7: Project card mousemove radial-gradient glow
+// ═══════════════════════════════════════════════════
+if (!prefersReducedMotion) {
+  document.querySelectorAll('.project').forEach((card) => {
+    card.addEventListener('pointermove', (e) => {
+      const rect = card.getBoundingClientRect();
+      const x = ((e.clientX - rect.left) / rect.width) * 100;
+      const y = ((e.clientY - rect.top) / rect.height) * 100;
+      card.style.setProperty('--glow-x', x + '%');
+      card.style.setProperty('--glow-y', y + '%');
+    });
+    card.addEventListener('pointerleave', () => {
+      card.style.removeProperty('--glow-x');
+      card.style.removeProperty('--glow-y');
+    });
+  });
+}
+
+// ═══════════════════════════════════════════════════
+// Tier 4-6: Magnetic hover for primary CTA buttons
+// ═══════════════════════════════════════════════════
+if (!prefersReducedMotion && window.matchMedia('(hover: hover)').matches) {
+  document.querySelectorAll('.hero-cta-btn.primary, .contact-cta.primary').forEach((btn) => {
+    btn.addEventListener('pointermove', (e) => {
+      const rect = btn.getBoundingClientRect();
+      const x = (e.clientX - rect.left - rect.width / 2) * 0.18;
+      const y = (e.clientY - rect.top - rect.height / 2) * 0.18;
+      btn.style.transform = `translate(${x}px, ${y}px)`;
+    });
+    btn.addEventListener('pointerleave', () => {
+      btn.style.transform = '';
+    });
+  });
+}
+
+// ═══════════════════════════════════════════════════
+// Tier 5-4: Email copy-to-clipboard (Gemini)
+// ═══════════════════════════════════════════════════
+const emailCta = document.getElementById('email-cta');
+const copyToast = document.getElementById('copy-toast');
+if (emailCta && copyToast && navigator.clipboard) {
+  emailCta.addEventListener('click', async (e) => {
+    // 기본 mailto 동작은 유지 — 복사는 서브 효과로만 작동
+    const email = emailCta.getAttribute('data-email');
+    if (!email) return;
+    try {
+      await navigator.clipboard.writeText(email);
+      copyToast.classList.add('visible');
+      clearTimeout(emailCta._toastTimer);
+      emailCta._toastTimer = setTimeout(() => {
+        copyToast.classList.remove('visible');
+      }, 2200);
+    } catch (err) {
+      // clipboard API 실패 시 조용히 스킵 — mailto 기본 동작만 유지
+    }
+  });
+}
+
+// ═══════════════════════════════════════════════════
+// Tier 5-5: 개발자 도구 콘솔 메시지 (Easter Egg)
+// ═══════════════════════════════════════════════════
+try {
+  console.log(
+    '%c윤상훈 · Sanghoon Yoon\n%cAI 빌더 · AI 엔지니어 · AX 강사\n%c' +
+    '한화오션 3년 4개월 · 대치동 4년 · AI 프로덕트 3개 단독 구축\n' +
+    '────────────────────────────────────────\n' +
+    '이 페이지의 코드를 보고 계시다면, 같이 일해볼까요?\n' +
+    'hoon7624g@gmail.com',
+    'font-size: 20px; font-weight: 700; color: #0b0b0d;',
+    'font-size: 12px; font-weight: 600; color: #1d4ed8; letter-spacing: 0.1em;',
+    'font-size: 12px; color: #525252; line-height: 1.6;'
+  );
+} catch (e) {}
+</script>
+</body>
+</html>
